@@ -44,6 +44,7 @@
 | [`docs/framework.md`](docs/framework.md) | 设计框架：目标层、信息层、通道层、触觉与视觉的映射规则 | 黄心健重点评审；其他人作为背景参考 |
 | [`docs/architecture.md`](docs/architecture.md) | 系统架构：各层任务、关键决定、需要讨论的问题、风险与验证 | 曾文滔、齐奕雯重点评审 |
 | [`docs/images/`](docs/images/) | 系统架构图、音乐可视化流程图 | 所有人 |
+| [`docs/schedule.md`](docs/schedule.md) | 阶段计划、分工与协作安排、甘特图 | 所有人 |
 
 ## 架构概览
 

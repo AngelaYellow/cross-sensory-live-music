@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1856" height="1558" viewBox="0 0 1856 1558" role="img" aria-labelledby="title desc">
+<title id="title">现场音乐感知设备系统架构图</title>
+<desc id="desc">从离线分析、数据、运行到硬件与实物的四层结构。视觉与触觉共用歌曲包、音乐播放时间和映射规则配置。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#181818"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<g id="frames">
+<polyline points="44,148 1416,148" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="44,426 309,426" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="323,426 1416,426" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="44,148 44,426" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="1416,148 1416,426" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="44,458 309,458" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="323,458 1416,458" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="44,631 309,631" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="323,631 616,631" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="630,631 1185,631" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="1199,631 1416,631" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="44,458 44,631" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="1416,458 1416,631" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="44,663 309,663" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="323,663 616,663" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="630,663 1185,663" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="1199,663 1416,663" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="44,1156 873,1156" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="887,1156 1121,1156" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="1135,1156 1303,1156" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="1317,1156 1416,1156" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="44,663 44,1156" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="1416,663 1416,1156" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="514,738 616,738" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="630,738 730,738" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="514,1040 616,1040" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="630,1040 730,1040" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="514,738 514,821" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="514,835 514,977" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="514,991 514,1040" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="730,738 730,821" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="730,835 730,977" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="730,991 730,1040" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="1044,738 1185,738" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="1199,738 1388,738" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="1044,1056 1185,1056" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="1199,1056 1303,1056" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="1317,1056 1388,1056" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="1044,738 1044,821" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="1044,835 1044,977" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="1044,991 1044,1056" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="1388,738 1388,1056" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="44,1210 372,1210" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="386,1210 1121,1210" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="1135,1210 1303,1210" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="1317,1210 1416,1210" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="44,1508 1416,1508" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="44,1210 44,1508" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="1416,1210 1416,1508" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="276,1278 372,1278" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="386,1278 1036,1278" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="276,1456 1036,1456" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="276,1278 276,1456" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="1036,1278 1036,1456" fill="none" stroke="#777" stroke-width="1.6" stroke-dasharray="7 5"/>
+<polyline points="1456,148 1812,148" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="1456,1508 1812,1508" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="1456,148 1456,1508" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="1812,148 1812,1508" fill="none" stroke="#a0a0a0" stroke-width="1.25" />
+<polyline points="1480,552 1788,552" fill="none" stroke="#a0a0a0" stroke-width="1.2" />
+<polyline points="1480,963 1788,963" fill="none" stroke="#a0a0a0" stroke-width="1.2" />
+</g>
+<g id="modules">
+<rect x="68" y="231" width="200" height="105" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="292" y="231" width="200" height="105" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="516" y="231" width="200" height="105" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="740" y="231" width="200" height="105" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="964" y="231" width="200" height="105" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="1188" y="231" width="200" height="105" fill="#fff" stroke="#181818" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="150" y="514" width="332" height="91" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="493" y="514" width="260" height="91" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="1050" y="514" width="284" height="91" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="68" y="835" width="152" height="96" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="244" y="835" width="160" height="96" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="534" y="788" width="176" height="80" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="534" y="944" width="176" height="80" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="786" y="788" width="188" height="80" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="786" y="944" width="188" height="80" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="1110" y="788" width="164" height="80" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="1110" y="944" width="164" height="80" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="528" y="1070" width="190" height="65" fill="#fff" stroke="#181818" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="68" y="1322" width="184" height="100" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="296" y="1322" width="166" height="100" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="503" y="1322" width="166" height="100" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="710" y="1322" width="306" height="100" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="1048" y="1322" width="160" height="100" fill="#fff" stroke="#181818" stroke-width="2"/>
+<rect x="1228" y="1322" width="164" height="100" fill="#fff" stroke="#181818" stroke-width="2"/>
+</g>
+<g id="connectors">
+<g><title>音频和歌词至分轨</title><polyline points="268,283 292,283" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<g><title>分轨至特征提取</title><polyline points="492,283 516,283" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<g><title>特征提取至张力与事件</title><polyline points="716,283 740,283" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<g><title>张力与事件至视觉参数生成</title><polyline points="940,283 964,283" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<g><title>进入可选人工修正</title><polyline points="1164,283 1188,283" fill="none" stroke="#181818" stroke-width="2.2" stroke-dasharray="7 5" marker-end="url(#arrow)"/></g>
+<g><title>视觉参数至歌曲包</title><polyline points="1064,336 1064,376 316,376 316,514" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<g><title>可选修正结果汇入歌曲包</title><polyline points="1288,336 1288,376 1064,376" fill="none" stroke="#181818" stroke-width="2.2" stroke-dasharray="7 5" marker-end="url(#arrow)"/></g>
+<g><title>歌曲包至时间线播放器</title><polyline points="316,605 316,835" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<g><title>规则配置至映射器</title><polyline points="623,605 623,738" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<g><title>舞台布局至 AR</title><polyline points="1192,605 1192,788" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<g><title>主时钟至时间线播放器</title><polyline points="220,883 244,883" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<g><title>时间线事件分流</title><polyline points="404,883 469,883" fill="none" stroke="#181818" stroke-width="2.2" /></g>
+<g><title>事件至视觉映射</title><polyline points="469,883 469,828 534,828" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<g><title>事件至触觉映射</title><polyline points="469,883 469,984 534,984" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<g><title>视觉映射至视觉渲染</title><polyline points="710,828 786,828" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<g><title>视觉渲染至 AR</title><polyline points="974,828 1012,828 1110,828" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<g><title>视觉渲染至全息</title><polyline points="1012,828 1012,984 1110,984" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<g><title>触觉映射至 WiFi 发送</title><polyline points="710,984 786,984" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<g><title>调试面板至映射器</title><polyline points="623,1070 623,1040" fill="none" stroke="#181818" stroke-width="2.2" stroke-dasharray="7 5" marker-end="url(#arrow)"/></g>
+<g><title>WiFi 无线至 ESP32</title><polyline points="880,1024 880,1183 379,1183 379,1322" fill="none" stroke="#181818" stroke-width="2.2" stroke-dasharray="7 5" marker-end="url(#arrow)"/></g>
+<g><title>AR 识别锚定至迷你舞台</title><polyline points="1274,828 1310,828 1310,1322" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<g><title>全息反射显示</title><polyline points="1192,1024 1192,1140 1128,1140 1128,1322" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<g><title>ESP32 至驱动电路</title><polyline points="462,1372 503,1372" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<g><title>驱动电路至振动马达</title><polyline points="669,1372 710,1372" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/></g>
+<circle cx="1064" cy="376" r="3.8" fill="#181818"/>
+<circle cx="469" cy="883" r="3.8" fill="#181818"/>
+<circle cx="1012" cy="828" r="3.8" fill="#181818"/>
+</g>
+<g id="legend">
+<polyline points="1483,1085 1543,1085" fill="none" stroke="#181818" stroke-width="2.2" marker-end="url(#arrow)"/>
+<polyline points="1483,1182 1543,1182" fill="none" stroke="#181818" stroke-width="2.2" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<rect x="1483" y="1264" width="60" height="28" fill="#fff" stroke="#424242" stroke-width="1.6" stroke-dasharray="7 5"/>
+</g>
+<g id="text" font-family="Microsoft YaHei, Noto Sans SC, SimHei, sans-serif">
+<text x="44" y="79" font-size="42" font-weight="700" text-anchor="start" fill="#181818">系统架构：同一份数据 · 同一个时钟 · 同一套规则</text>
+<text x="46" y="116" font-size="22" font-weight="400" text-anchor="start" fill="#424242">现场音乐感知设备</text>
+<text x="68" y="185" font-size="25" font-weight="700" text-anchor="start" fill="#181818">01  离线分析层</text>
+<text x="1018" y="184" font-size="19" font-weight="400" text-anchor="start" fill="#424242">电脑 / Python / 演出前运行一次</text>
+<text x="68" y="209" font-size="18" font-weight="400" text-anchor="start" fill="#424242">工具候选（待负责人确认）  Demucs / Basic Pitch / librosa / Essentia / All-In-One / 大模型 API</text>
+<text x="168" y="266.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">音频 + 歌词</text>
+<text x="168" y="291.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">歌曲文件</text>
+<text x="168" y="316.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">带时间戳的歌词</text>
+<text x="392" y="279" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">分轨</text>
+<text x="392" y="304" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">人声、鼓、贝斯、其他</text>
+<text x="616" y="266.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">特征提取</text>
+<text x="616" y="291.5" font-size="16" font-weight="400" text-anchor="middle" fill="#424242">旋律、节拍、起音</text>
+<text x="616" y="316.5" font-size="16" font-weight="400" text-anchor="middle" fill="#424242">调性、和弦、情绪、段落</text>
+<text x="840" y="266.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">张力与事件</text>
+<text x="840" y="291.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">计算张力曲线</text>
+<text x="840" y="316.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">定位转折与高潮</text>
+<text x="1064" y="266.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">视觉参数生成</text>
+<text x="1064" y="291.5" font-size="16" font-weight="400" text-anchor="middle" fill="#424242">大模型根据歌词和情绪</text>
+<text x="1064" y="316.5" font-size="16" font-weight="400" text-anchor="middle" fill="#424242">按段落生成色板与意象</text>
+<text x="1288" y="266.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">人工修正（可选）</text>
+<text x="1288" y="291.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">通过修正文件调整</text>
+<text x="1288" y="316.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">段落边界、高潮等</text>
+<text x="696" y="363" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">输出歌曲包</text>
+<text x="1185" y="363" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">修正后汇入</text>
+<text x="68" y="495" font-size="25" font-weight="700" text-anchor="start" fill="#181818">02  数据层</text>
+<text x="1104" y="494" font-size="19" font-weight="400" text-anchor="start" fill="#424242">模块共用的数据与配置</text>
+<text x="316" y="542.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">歌曲包</text>
+<text x="316" y="567.5" font-size="16" font-weight="400" text-anchor="middle" fill="#424242">音频 + 时间线</text>
+<text x="316" y="592.5" font-size="16" font-weight="400" text-anchor="middle" fill="#424242">节拍、旋律、和弦、段落、曲线、事件</text>
+<text x="623" y="542.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">映射规则配置</text>
+<text x="623" y="567.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">视觉 7 条 / 触觉 6 条</text>
+<text x="623" y="592.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">规则编号对应框架文档</text>
+<text x="1192" y="542.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">舞台布局配置</text>
+<text x="1192" y="567.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">乐手模型的位置</text>
+<text x="1192" y="592.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">独立于歌曲存放</text>
+<text x="331" y="652" font-size="17" font-weight="400" text-anchor="start" fill="#424242">时间线</text>
+<text x="638" y="652" font-size="17" font-weight="400" text-anchor="start" fill="#424242">映射规则</text>
+<text x="1207" y="652" font-size="17" font-weight="400" text-anchor="start" fill="#424242">乐手位置</text>
+<text x="68" y="700" font-size="25" font-weight="700" text-anchor="start" fill="#181818">03  运行层</text>
+<text x="859" y="699" font-size="19" font-weight="400" text-anchor="start" fill="#424242">手机 / Unity / 演出时运行</text>
+<text x="531" y="771" font-size="21" font-weight="700" text-anchor="start" fill="#181818">映射器</text>
+<text x="713" y="769" font-size="16" font-weight="400" text-anchor="end" fill="#424242">读同一份规则</text>
+<text x="1061" y="771" font-size="21" font-weight="700" text-anchor="start" fill="#181818">显示模式</text>
+<text x="144" y="878.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">主时钟</text>
+<text x="144" y="903.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">音乐播放时间</text>
+<text x="324" y="878.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">时间线播放器</text>
+<text x="324" y="903.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">按时间派发事件</text>
+<text x="622" y="823.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">视觉映射</text>
+<text x="622" y="848.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">事件 → 元素参数</text>
+<text x="622" y="979.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">触觉映射</text>
+<text x="622" y="1004.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">事件 → 马达指令</text>
+<text x="880" y="823.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">视觉渲染</text>
+<text x="880" y="848.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">7 个单位元素</text>
+<text x="880" y="979.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">WiFi 发送</text>
+<text x="880" y="1004.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">提前发送、延迟补偿</text>
+<text x="1192" y="823.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">AR 模式</text>
+<text x="1192" y="848.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">识别图锚定</text>
+<text x="1192" y="979.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">全息模式</text>
+<text x="1192" y="1004.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">黑底、镜像</text>
+<text x="623" y="1098" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">调试面板</text>
+<text x="623" y="1123" font-size="16" font-weight="400" text-anchor="middle" fill="#424242">延迟补偿、规则开关</text>
+<text x="68" y="1247" font-size="25" font-weight="700" text-anchor="start" fill="#181818">04  硬件与实物层</text>
+<text x="474" y="1246" font-size="19" font-weight="400" text-anchor="start" fill="#424242">ESP32 / 马达 / 3D 建模与打印</text>
+<text x="296" y="1308" font-size="21" font-weight="700" text-anchor="start" fill="#181818">手套</text>
+<text x="160" y="1367.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">外观模型</text>
+<text x="160" y="1392.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">眼镜外观、手套外壳</text>
+<text x="379" y="1367.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">ESP32 固件</text>
+<text x="379" y="1392.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">只执行指令</text>
+<text x="586" y="1367.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">驱动电路</text>
+<text x="586" y="1392.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">放大电流</text>
+<text x="863" y="1367.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">振动马达</text>
+<text x="863" y="1392.5" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">手腕 1 个 + 手指 3–4 个</text>
+<text x="1128" y="1355" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">全息结构</text>
+<text x="1128" y="1380" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">45° PVC 片</text>
+<text x="1128" y="1405" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">反射成像</text>
+<text x="1310" y="1367.5" font-size="22" font-weight="700" text-anchor="middle" fill="#181818">迷你舞台</text>
+<text x="1310" y="1392.5" font-size="16" font-weight="400" text-anchor="middle" fill="#424242">识别图、乐手模型</text>
+<text x="626" y="1173" font-size="17" font-weight="400" text-anchor="middle" fill="#424242">WiFi 无线</text>
+<text x="1115" y="1189" font-size="17" font-weight="400" text-anchor="end" fill="#424242">反射显示</text>
+<text x="1295" y="1189" font-size="17" font-weight="400" text-anchor="end" fill="#424242">识别、锚定</text>
+<text x="1482" y="199" font-size="26" font-weight="700" text-anchor="start" fill="#181818">三条原则</text>
+<text x="1482" y="268" font-size="21" font-weight="700" text-anchor="start" fill="#181818">一份数据</text>
+<text x="1482" y="297" font-size="18" font-weight="400" text-anchor="start" fill="#424242">视觉和触觉共用同一个歌曲包</text>
+<text x="1482" y="323" font-size="18" font-weight="400" text-anchor="start" fill="#424242">保证内容一致</text>
+<text x="1482" y="366" font-size="21" font-weight="700" text-anchor="start" fill="#181818">一个时钟</text>
+<text x="1482" y="395" font-size="18" font-weight="400" text-anchor="start" fill="#424242">两路都跟随音乐播放时间</text>
+<text x="1482" y="421" font-size="18" font-weight="400" text-anchor="start" fill="#424242">保持时间同步</text>
+<text x="1482" y="464" font-size="21" font-weight="700" text-anchor="start" fill="#181818">规则集中</text>
+<text x="1482" y="493" font-size="18" font-weight="400" text-anchor="start" fill="#424242">规则由 Unity 执行，手套只执行指令</text>
+<text x="1482" y="519" font-size="18" font-weight="400" text-anchor="start" fill="#424242">每个效果都可追溯到配置规则</text>
+<text x="1482" y="610" font-size="26" font-weight="700" text-anchor="start" fill="#181818">框架与架构的对应关系</text>
+<text x="1482" y="682" font-size="21" font-weight="700" text-anchor="start" fill="#181818">目标层 / 信息层</text>
+<text x="1482" y="711" font-size="18" font-weight="400" text-anchor="start" fill="#424242">01 离线分析</text>
+<text x="1482" y="737" font-size="18" font-weight="400" text-anchor="start" fill="#424242">确定要提取哪些信息</text>
+<text x="1482" y="778" font-size="21" font-weight="700" text-anchor="start" fill="#181818">通道层 / 映射层</text>
+<text x="1482" y="807" font-size="18" font-weight="400" text-anchor="start" fill="#424242">02 映射规则配置 + 03 映射器</text>
+<text x="1482" y="874" font-size="21" font-weight="700" text-anchor="start" fill="#181818">表现层</text>
+<text x="1482" y="903" font-size="18" font-weight="400" text-anchor="start" fill="#424242">03 视觉渲染 + 04 振动马达</text>
+<text x="1482" y="1020" font-size="26" font-weight="700" text-anchor="start" fill="#181818">图例</text>
+<text x="1571" y="1093" font-size="21" font-weight="700" text-anchor="start" fill="#181818">实线箭头</text>
+<text x="1571" y="1123" font-size="18" font-weight="400" text-anchor="start" fill="#424242">数据流</text>
+<text x="1571" y="1190" font-size="21" font-weight="700" text-anchor="start" fill="#181818">虚线箭头</text>
+<text x="1571" y="1220" font-size="18" font-weight="400" text-anchor="start" fill="#424242">无线传输或可选环节</text>
+<text x="1571" y="1287" font-size="21" font-weight="700" text-anchor="start" fill="#181818">虚线框</text>
+<text x="1571" y="1317" font-size="18" font-weight="400" text-anchor="start" fill="#424242">分组或可选模块</text>
+</g>
+</svg>

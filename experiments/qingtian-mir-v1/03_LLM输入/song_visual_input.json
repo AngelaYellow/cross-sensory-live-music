@@ -1,0 +1,1276 @@
+{
+  "schema_version": "music_visual_input_v1_revision_2",
+  "track": {
+    "title": "晴天",
+    "artist": "周杰伦",
+    "identity_source": "user-provided filename; no external identification",
+    "source_path": "01_输入/周杰伦 - 晴天.flac",
+    "sha256": "0c1a866751042dae234794a45736c52c13a89994da9fccea838cc91ede2d8511",
+    "duration_seconds": 269.74720833333333,
+    "sample_rate": 96000,
+    "channels": 2,
+    "subtype": "PCM_24",
+    "analysis_audio": "晴天_分析用_22050Hz_mono.wav",
+    "preprocessing": "FFmpeg: stereo arithmetic downmix, resample 22050 Hz, PCM16; no trim, gain normalization or silence removal"
+  },
+  "processing": {
+    "analysis_sample_rate": 22050,
+    "hop_length": 512,
+    "frame_step_seconds": 0.023219954648526078,
+    "beat_estimate_bpm": 135.99917763157896,
+    "half_time_alternative_bpm": 67.99958881578948,
+    "tempo_caveat": "136/68为拍级解释歧义，未通过人工打拍确认；不据此声称变速",
+    "model_scope": "signal processing only; no pretrained semantic MIR models"
+  },
+  "segmentation": {
+    "count": 15,
+    "status": "signal_reviewed_working_segmentation",
+    "human_listening_verified": false,
+    "functional_labels_verified": false,
+    "review_description": "Codex核对全曲特征图、自相似矩阵、各边界多粒度聚类支持；保留较细声学变化作为视觉工作段",
+    "boundaries_are_not_ground_truth": true
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "start_seconds": 0.0,
+      "end_seconds": 13.514,
+      "duration_seconds": 13.514,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -21.686,
+          -19.225,
+          -17.397
+        ],
+        "energy_percentile_within_track": 3.9,
+        "energy_change_last_vs_first_third_db": -0.022,
+        "spectral_centroid_hz_median": 940.3,
+        "spectral_flatness_median": 4.9e-05,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.24120000004768372,
+          "250_2000_hz": 0.7444000244140625,
+          "2000_8000_hz": 0.012000000104308128
+        },
+        "hpss_percussive_ratio_median": 0.0011,
+        "detected_onsets_per_second": 2.96,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0413,
+        "chroma_mean": [
+          0.1606999933719635,
+          0.23880000412464142,
+          0.8637999892234802,
+          0.32280001044273376,
+          0.19009999930858612,
+          0.10220000147819519,
+          0.1071000024676323,
+          0.2915000021457672,
+          0.12129999697208405,
+          0.04390000179409981,
+          0.06129999831318855,
+          0.11309999972581863
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      },
+      "time_range_display": "00:00.00–00:13.51",
+      "boundary_evidence": {
+        "status": "audio_start",
+        "time": 0.0
+      },
+      "descriptive_summary": {
+        "energy": "段落RMS中位值处于全曲帧能量的第3.9百分位，属于本曲较低能量范围",
+        "within_segment_trend": "首末三分之一能量中位数接近，差值-0.02 dB",
+        "texture": "频谱质心中位940.3 Hz；检测起音2.96次/秒；HPSS打击成分指标0.0011",
+        "source": "measured_acoustic_features_with_explicit_heuristic_summary",
+        "limitations": "能量较高不等于快乐或激动；频谱质心不是旋律音高；起音不是鼓点清单；HPSS成分不是乐器识别"
+      },
+      "similar_sections_by_average_features": [
+        {
+          "id": "S08",
+          "score": 0.1304
+        },
+        {
+          "id": "S03",
+          "score": 0.1226
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "start_seconds": 13.514,
+      "end_seconds": 25.356,
+      "duration_seconds": 11.842,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -17.403,
+          -16.014,
+          -11.843
+        ],
+        "energy_percentile_within_track": 15.5,
+        "energy_change_last_vs_first_third_db": 0.131,
+        "spectral_centroid_hz_median": 1400.5,
+        "spectral_flatness_median": 0.001809,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.707099974155426,
+          "250_2000_hz": 0.2784000039100647,
+          "2000_8000_hz": 0.013100000098347664
+        },
+        "hpss_percussive_ratio_median": 0.0066,
+        "detected_onsets_per_second": 3.547,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0386,
+        "chroma_mean": [
+          0.29840001463890076,
+          0.18950000405311584,
+          0.43309998512268066,
+          0.2985000014305115,
+          0.34610000252723694,
+          0.19900000095367432,
+          0.25110000371932983,
+          0.5123000144958496,
+          0.1914999932050705,
+          0.0697999969124794,
+          0.17090000212192535,
+          0.6255000233650208
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      },
+      "time_range_display": "00:13.51–00:25.36",
+      "boundary_evidence": {
+        "time": 13.514,
+        "novelty": 1.528,
+        "prominence": 1.528,
+        "agglomerative_support_out_of_5": 5,
+        "status": "multi_method_support",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      },
+      "descriptive_summary": {
+        "energy": "段落RMS中位值处于全曲帧能量的第15.5百分位，属于本曲较低能量范围",
+        "within_segment_trend": "首末三分之一能量中位数接近，差值+0.13 dB",
+        "texture": "频谱质心中位1400.5 Hz；检测起音3.55次/秒；HPSS打击成分指标0.0066",
+        "source": "measured_acoustic_features_with_explicit_heuristic_summary",
+        "limitations": "能量较高不等于快乐或激动；频谱质心不是旋律音高；起音不是鼓点清单；HPSS成分不是乐器识别"
+      },
+      "similar_sections_by_average_features": [
+        {
+          "id": "S03",
+          "score": 0.3383
+        },
+        {
+          "id": "S04",
+          "score": 0.2543
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "start_seconds": 25.356,
+      "end_seconds": 41.587,
+      "duration_seconds": 16.231,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -16.51,
+          -14.049,
+          -11.625
+        ],
+        "energy_percentile_within_track": 38.9,
+        "energy_change_last_vs_first_third_db": 1.411,
+        "spectral_centroid_hz_median": 1558.5,
+        "spectral_flatness_median": 0.003977,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.5866000056266785,
+          "250_2000_hz": 0.38580000400543213,
+          "2000_8000_hz": 0.024299999698996544
+        },
+        "hpss_percussive_ratio_median": 0.0164,
+        "detected_onsets_per_second": 3.881,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0321,
+        "chroma_mean": [
+          0.15710000693798065,
+          0.21660000085830688,
+          0.7175999879837036,
+          0.2515999972820282,
+          0.19740000367164612,
+          0.13670000433921814,
+          0.30140000581741333,
+          0.5471000075340271,
+          0.20329999923706055,
+          0.15309999883174896,
+          0.12389999628067017,
+          0.2842999994754791
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      },
+      "time_range_display": "00:25.36–00:41.59",
+      "boundary_evidence": {
+        "time": 25.356,
+        "novelty": 0.955,
+        "prominence": 0.417,
+        "agglomerative_support_out_of_5": 0,
+        "status": "novelty_supported_subsection",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      },
+      "descriptive_summary": {
+        "energy": "段落RMS中位值处于全曲帧能量的第38.9百分位，属于本曲中等能量范围",
+        "within_segment_trend": "首末三分之一能量中位数接近，差值+1.41 dB",
+        "texture": "频谱质心中位1558.5 Hz；检测起音3.88次/秒；HPSS打击成分指标0.0164",
+        "source": "measured_acoustic_features_with_explicit_heuristic_summary",
+        "limitations": "能量较高不等于快乐或激动；频谱质心不是旋律音高；起音不是鼓点清单；HPSS成分不是乐器识别"
+      },
+      "similar_sections_by_average_features": [
+        {
+          "id": "S04",
+          "score": 0.4905
+        },
+        {
+          "id": "S05",
+          "score": 0.4678
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "start_seconds": 41.587,
+      "end_seconds": 69.149,
+      "duration_seconds": 27.562,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -15.646,
+          -13.528,
+          -10.978
+        ],
+        "energy_percentile_within_track": 48.5,
+        "energy_change_last_vs_first_third_db": 1.307,
+        "spectral_centroid_hz_median": 1943.7,
+        "spectral_flatness_median": 0.010884,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.5329999923706055,
+          "250_2000_hz": 0.4099999964237213,
+          "2000_8000_hz": 0.05260000005364418
+        },
+        "hpss_percussive_ratio_median": 0.0284,
+        "detected_onsets_per_second": 4.027,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0258,
+        "chroma_mean": [
+          0.20329999923706055,
+          0.23669999837875366,
+          0.6765000224113464,
+          0.24809999763965607,
+          0.274399995803833,
+          0.22789999842643738,
+          0.3278999924659729,
+          0.5300999879837036,
+          0.1995999962091446,
+          0.20919999480247498,
+          0.18279999494552612,
+          0.3725000023841858
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      },
+      "time_range_display": "00:41.59–01:09.15",
+      "boundary_evidence": {
+        "time": 41.587,
+        "novelty": 0.944,
+        "prominence": 0.461,
+        "agglomerative_support_out_of_5": 5,
+        "status": "multi_method_support",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      },
+      "descriptive_summary": {
+        "energy": "段落RMS中位值处于全曲帧能量的第48.5百分位，属于本曲中等能量范围",
+        "within_segment_trend": "首末三分之一能量中位数接近，差值+1.31 dB",
+        "texture": "频谱质心中位1943.7 Hz；检测起音4.03次/秒；HPSS打击成分指标0.0284",
+        "source": "measured_acoustic_features_with_explicit_heuristic_summary",
+        "limitations": "能量较高不等于快乐或激动；频谱质心不是旋律音高；起音不是鼓点清单；HPSS成分不是乐器识别"
+      },
+      "similar_sections_by_average_features": [
+        {
+          "id": "S05",
+          "score": 0.6631
+        },
+        {
+          "id": "S09",
+          "score": 0.644
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "start_seconds": 69.149,
+      "end_seconds": 101.982,
+      "duration_seconds": 32.833,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -15.215,
+          -13.048,
+          -10.934
+        ],
+        "energy_percentile_within_track": 58.4,
+        "energy_change_last_vs_first_third_db": 0.602,
+        "spectral_centroid_hz_median": 2139.0,
+        "spectral_flatness_median": 0.014694,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.4927999973297119,
+          "250_2000_hz": 0.44620001316070557,
+          "2000_8000_hz": 0.05590000003576279
+        },
+        "hpss_percussive_ratio_median": 0.0277,
+        "detected_onsets_per_second": 3.533,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0311,
+        "chroma_mean": [
+          0.19110000133514404,
+          0.22609999775886536,
+          0.6082000136375427,
+          0.311599999666214,
+          0.21330000460147858,
+          0.156700000166893,
+          0.32089999318122864,
+          0.4212999939918518,
+          0.1817999929189682,
+          0.20579999685287476,
+          0.17350000143051147,
+          0.32249999046325684
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      },
+      "time_range_display": "01:09.15–01:41.98",
+      "boundary_evidence": {
+        "time": 69.149,
+        "novelty": 0.949,
+        "prominence": 0.469,
+        "agglomerative_support_out_of_5": 0,
+        "status": "novelty_supported_subsection",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      },
+      "descriptive_summary": {
+        "energy": "段落RMS中位值处于全曲帧能量的第58.4百分位，属于本曲较高能量范围",
+        "within_segment_trend": "首末三分之一能量中位数接近，差值+0.60 dB",
+        "texture": "频谱质心中位2139.0 Hz；检测起音3.53次/秒；HPSS打击成分指标0.0277",
+        "source": "measured_acoustic_features_with_explicit_heuristic_summary",
+        "limitations": "能量较高不等于快乐或激动；频谱质心不是旋律音高；起音不是鼓点清单；HPSS成分不是乐器识别"
+      },
+      "similar_sections_by_average_features": [
+        {
+          "id": "S11",
+          "score": 0.6676
+        },
+        {
+          "id": "S04",
+          "score": 0.6631
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "start_seconds": 101.982,
+      "end_seconds": 122.555,
+      "duration_seconds": 20.573,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -14.942,
+          -12.554,
+          -10.581
+        ],
+        "energy_percentile_within_track": 68.2,
+        "energy_change_last_vs_first_third_db": 0.141,
+        "spectral_centroid_hz_median": 2401.5,
+        "spectral_flatness_median": 0.020444,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.41260001063346863,
+          "250_2000_hz": 0.5135999917984009,
+          "2000_8000_hz": 0.06620000302791595
+        },
+        "hpss_percussive_ratio_median": 0.0498,
+        "detected_onsets_per_second": 3.597,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0309,
+        "chroma_mean": [
+          0.20900000631809235,
+          0.257999986410141,
+          0.6421999931335449,
+          0.3231000006198883,
+          0.29429998993873596,
+          0.16859999299049377,
+          0.3019999861717224,
+          0.4196000099182129,
+          0.15449999272823334,
+          0.16519999504089355,
+          0.13189999759197235,
+          0.2906000018119812
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      },
+      "time_range_display": "01:41.98–02:02.56",
+      "boundary_evidence": {
+        "time": 101.982,
+        "novelty": 1.103,
+        "prominence": 0.641,
+        "agglomerative_support_out_of_5": 0,
+        "status": "novelty_supported_subsection",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      },
+      "descriptive_summary": {
+        "energy": "段落RMS中位值处于全曲帧能量的第68.2百分位，属于本曲较高能量范围",
+        "within_segment_trend": "首末三分之一能量中位数接近，差值+0.14 dB",
+        "texture": "频谱质心中位2401.5 Hz；检测起音3.60次/秒；HPSS打击成分指标0.0498",
+        "source": "measured_acoustic_features_with_explicit_heuristic_summary",
+        "limitations": "能量较高不等于快乐或激动；频谱质心不是旋律音高；起音不是鼓点清单；HPSS成分不是乐器识别"
+      },
+      "similar_sections_by_average_features": [
+        {
+          "id": "S12",
+          "score": 0.7873
+        },
+        {
+          "id": "S07",
+          "score": 0.6557
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "start_seconds": 122.555,
+      "end_seconds": 141.827,
+      "duration_seconds": 19.272,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -15.257,
+          -13.075,
+          -10.617
+        ],
+        "energy_percentile_within_track": 57.9,
+        "energy_change_last_vs_first_third_db": -0.217,
+        "spectral_centroid_hz_median": 2388.9,
+        "spectral_flatness_median": 0.019519,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.450300008058548,
+          "250_2000_hz": 0.476500004529953,
+          "2000_8000_hz": 0.06379999965429306
+        },
+        "hpss_percussive_ratio_median": 0.0363,
+        "detected_onsets_per_second": 3.165,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0288,
+        "chroma_mean": [
+          0.22789999842643738,
+          0.2800000011920929,
+          0.554099977016449,
+          0.29280000925064087,
+          0.16349999606609344,
+          0.11500000208616257,
+          0.2937999963760376,
+          0.3817000091075897,
+          0.1657000035047531,
+          0.20640000700950623,
+          0.22949999570846558,
+          0.4284000098705292
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      },
+      "time_range_display": "02:02.56–02:21.83",
+      "boundary_evidence": {
+        "time": 122.555,
+        "novelty": 0.962,
+        "prominence": 0.42,
+        "agglomerative_support_out_of_5": 0,
+        "status": "novelty_supported_subsection",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      },
+      "descriptive_summary": {
+        "energy": "段落RMS中位值处于全曲帧能量的第57.9百分位，属于本曲较高能量范围",
+        "within_segment_trend": "首末三分之一能量中位数接近，差值-0.22 dB",
+        "texture": "频谱质心中位2388.9 Hz；检测起音3.17次/秒；HPSS打击成分指标0.0363",
+        "source": "measured_acoustic_features_with_explicit_heuristic_summary",
+        "limitations": "能量较高不等于快乐或激动；频谱质心不是旋律音高；起音不是鼓点清单；HPSS成分不是乐器识别"
+      },
+      "similar_sections_by_average_features": [
+        {
+          "id": "S13",
+          "score": 0.7942
+        },
+        {
+          "id": "S11",
+          "score": 0.6821
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "start_seconds": 141.827,
+      "end_seconds": 154.506,
+      "duration_seconds": 12.679,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -16.757,
+          -15.439,
+          -11.589
+        ],
+        "energy_percentile_within_track": 21.4,
+        "energy_change_last_vs_first_third_db": 0.232,
+        "spectral_centroid_hz_median": 1678.7,
+        "spectral_flatness_median": 0.003945,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.5421000123023987,
+          "250_2000_hz": 0.40790000557899475,
+          "2000_8000_hz": 0.04879999905824661
+        },
+        "hpss_percussive_ratio_median": 0.006,
+        "detected_onsets_per_second": 3.865,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0244,
+        "chroma_mean": [
+          0.20749999582767487,
+          0.2750000059604645,
+          0.8727999925613403,
+          0.30300000309944153,
+          0.16769999265670776,
+          0.11479999870061874,
+          0.25839999318122864,
+          0.6499999761581421,
+          0.2517000138759613,
+          0.2524999976158142,
+          0.15309999883174896,
+          0.2003999948501587
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      },
+      "time_range_display": "02:21.83–02:34.51",
+      "boundary_evidence": {
+        "time": 141.827,
+        "novelty": 0.921,
+        "prominence": 0.385,
+        "agglomerative_support_out_of_5": 5,
+        "status": "multi_method_support",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      },
+      "descriptive_summary": {
+        "energy": "段落RMS中位值处于全曲帧能量的第21.4百分位，属于本曲较低能量范围",
+        "within_segment_trend": "首末三分之一能量中位数接近，差值+0.23 dB",
+        "texture": "频谱质心中位1678.7 Hz；检测起音3.87次/秒；HPSS打击成分指标0.0060",
+        "source": "measured_acoustic_features_with_explicit_heuristic_summary",
+        "limitations": "能量较高不等于快乐或激动；频谱质心不是旋律音高；起音不是鼓点清单；HPSS成分不是乐器识别"
+      },
+      "similar_sections_by_average_features": [
+        {
+          "id": "S14",
+          "score": 0.3892
+        },
+        {
+          "id": "S04",
+          "score": 0.3888
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "start_seconds": 154.506,
+      "end_seconds": 167.648,
+      "duration_seconds": 13.142,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -14.697,
+          -12.842,
+          -10.409
+        ],
+        "energy_percentile_within_track": 62.7,
+        "energy_change_last_vs_first_third_db": 0.771,
+        "spectral_centroid_hz_median": 1873.6,
+        "spectral_flatness_median": 0.010069,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.46889999508857727,
+          "250_2000_hz": 0.4819999933242798,
+          "2000_8000_hz": 0.04659999907016754
+        },
+        "hpss_percussive_ratio_median": 0.0303,
+        "detected_onsets_per_second": 4.033,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0164,
+        "chroma_mean": [
+          0.17900000512599945,
+          0.23430000245571136,
+          0.7541999816894531,
+          0.24940000474452972,
+          0.22840000689029694,
+          0.19629999995231628,
+          0.3474000096321106,
+          0.6183000206947327,
+          0.18610000610351562,
+          0.18690000474452972,
+          0.1542000025510788,
+          0.38440001010894775
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      },
+      "time_range_display": "02:34.51–02:47.65",
+      "boundary_evidence": {
+        "time": 154.506,
+        "novelty": 1.009,
+        "prominence": 0.63,
+        "agglomerative_support_out_of_5": 5,
+        "status": "multi_method_support",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      },
+      "descriptive_summary": {
+        "energy": "段落RMS中位值处于全曲帧能量的第62.7百分位，属于本曲较高能量范围",
+        "within_segment_trend": "首末三分之一能量中位数接近，差值+0.77 dB",
+        "texture": "频谱质心中位1873.6 Hz；检测起音4.03次/秒；HPSS打击成分指标0.0303",
+        "source": "measured_acoustic_features_with_explicit_heuristic_summary",
+        "limitations": "能量较高不等于快乐或激动；频谱质心不是旋律音高；起音不是鼓点清单；HPSS成分不是乐器识别"
+      },
+      "similar_sections_by_average_features": [
+        {
+          "id": "S04",
+          "score": 0.644
+        },
+        {
+          "id": "S10",
+          "score": 0.5757
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "start_seconds": 167.648,
+      "end_seconds": 179.026,
+      "duration_seconds": 11.378,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -14.203,
+          -12.968,
+          -10.668
+        ],
+        "energy_percentile_within_track": 60.1,
+        "energy_change_last_vs_first_third_db": -0.285,
+        "spectral_centroid_hz_median": 2071.8,
+        "spectral_flatness_median": 0.013401,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.40959998965263367,
+          "250_2000_hz": 0.5139999985694885,
+          "2000_8000_hz": 0.07329999655485153
+        },
+        "hpss_percussive_ratio_median": 0.038,
+        "detected_onsets_per_second": 4.043,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0241,
+        "chroma_mean": [
+          0.21559999883174896,
+          0.24609999358654022,
+          0.6557000279426575,
+          0.2125999927520752,
+          0.19349999725818634,
+          0.1696999967098236,
+          0.37450000643730164,
+          0.5935999751091003,
+          0.17139999568462372,
+          0.17749999463558197,
+          0.11580000072717667,
+          0.2727000117301941
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      },
+      "time_range_display": "02:47.65–02:59.03",
+      "boundary_evidence": {
+        "time": 167.648,
+        "novelty": 0.961,
+        "prominence": 0.44,
+        "agglomerative_support_out_of_5": 0,
+        "status": "novelty_supported_subsection",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      },
+      "descriptive_summary": {
+        "energy": "段落RMS中位值处于全曲帧能量的第60.1百分位，属于本曲较高能量范围",
+        "within_segment_trend": "首末三分之一能量中位数接近，差值-0.28 dB",
+        "texture": "频谱质心中位2071.8 Hz；检测起音4.04次/秒；HPSS打击成分指标0.0380",
+        "source": "measured_acoustic_features_with_explicit_heuristic_summary",
+        "limitations": "能量较高不等于快乐或激动；频谱质心不是旋律音高；起音不是鼓点清单；HPSS成分不是乐器识别"
+      },
+      "similar_sections_by_average_features": [
+        {
+          "id": "S09",
+          "score": 0.5757
+        },
+        {
+          "id": "S05",
+          "score": 0.5206
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "start_seconds": 179.026,
+      "end_seconds": 200.04,
+      "duration_seconds": 21.014,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -15.223,
+          -12.795,
+          -10.568
+        ],
+        "energy_percentile_within_track": 63.6,
+        "energy_change_last_vs_first_third_db": -0.127,
+        "spectral_centroid_hz_median": 2363.3,
+        "spectral_flatness_median": 0.018897,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.4862000048160553,
+          "250_2000_hz": 0.4458000063896179,
+          "2000_8000_hz": 0.061400000005960464
+        },
+        "hpss_percussive_ratio_median": 0.0264,
+        "detected_onsets_per_second": 3.284,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0268,
+        "chroma_mean": [
+          0.19030000269412994,
+          0.23960000276565552,
+          0.574999988079071,
+          0.30970001220703125,
+          0.2003999948501587,
+          0.14169999957084656,
+          0.3334999978542328,
+          0.33820000290870667,
+          0.20640000700950623,
+          0.3271999955177307,
+          0.20999999344348907,
+          0.36959999799728394
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      },
+      "time_range_display": "02:59.03–03:20.04",
+      "boundary_evidence": {
+        "time": 179.026,
+        "novelty": 1.16,
+        "prominence": 0.79,
+        "agglomerative_support_out_of_5": 4,
+        "status": "multi_method_support",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      },
+      "descriptive_summary": {
+        "energy": "段落RMS中位值处于全曲帧能量的第63.6百分位，属于本曲较高能量范围",
+        "within_segment_trend": "首末三分之一能量中位数接近，差值-0.13 dB",
+        "texture": "频谱质心中位2363.3 Hz；检测起音3.28次/秒；HPSS打击成分指标0.0264",
+        "source": "measured_acoustic_features_with_explicit_heuristic_summary",
+        "limitations": "能量较高不等于快乐或激动；频谱质心不是旋律音高；起音不是鼓点清单；HPSS成分不是乐器识别"
+      },
+      "similar_sections_by_average_features": [
+        {
+          "id": "S13",
+          "score": 0.6895
+        },
+        {
+          "id": "S07",
+          "score": 0.6821
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "start_seconds": 200.04,
+      "end_seconds": 220.613,
+      "duration_seconds": 20.573,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -14.75,
+          -12.562,
+          -10.506
+        ],
+        "energy_percentile_within_track": 68.1,
+        "energy_change_last_vs_first_third_db": -0.301,
+        "spectral_centroid_hz_median": 2398.0,
+        "spectral_flatness_median": 0.019506,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.3853999972343445,
+          "250_2000_hz": 0.5404999852180481,
+          "2000_8000_hz": 0.06549999862909317
+        },
+        "hpss_percussive_ratio_median": 0.0572,
+        "detected_onsets_per_second": 3.5,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.027,
+        "chroma_mean": [
+          0.18230000138282776,
+          0.2240000069141388,
+          0.5676000118255615,
+          0.3057999908924103,
+          0.28040000796318054,
+          0.16769999265670776,
+          0.30489999055862427,
+          0.3986000120639801,
+          0.14339999854564667,
+          0.18219999969005585,
+          0.14429999887943268,
+          0.28189998865127563
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      },
+      "time_range_display": "03:20.04–03:40.61",
+      "boundary_evidence": {
+        "time": 200.04,
+        "novelty": 1.006,
+        "prominence": 0.471,
+        "agglomerative_support_out_of_5": 0,
+        "status": "novelty_supported_subsection",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      },
+      "descriptive_summary": {
+        "energy": "段落RMS中位值处于全曲帧能量的第68.1百分位，属于本曲较高能量范围",
+        "within_segment_trend": "首末三分之一能量中位数接近，差值-0.30 dB",
+        "texture": "频谱质心中位2398.0 Hz；检测起音3.50次/秒；HPSS打击成分指标0.0572",
+        "source": "measured_acoustic_features_with_explicit_heuristic_summary",
+        "limitations": "能量较高不等于快乐或激动；频谱质心不是旋律音高；起音不是鼓点清单；HPSS成分不是乐器识别"
+      },
+      "similar_sections_by_average_features": [
+        {
+          "id": "S06",
+          "score": 0.7873
+        },
+        {
+          "id": "S07",
+          "score": 0.6687
+        }
+      ]
+    },
+    {
+      "id": "S13",
+      "start_seconds": 220.613,
+      "end_seconds": 242.486,
+      "duration_seconds": 21.873,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -15.291,
+          -12.877,
+          -10.684
+        ],
+        "energy_percentile_within_track": 62.0,
+        "energy_change_last_vs_first_third_db": -0.041,
+        "spectral_centroid_hz_median": 2384.6,
+        "spectral_flatness_median": 0.019181,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.4544000029563904,
+          "250_2000_hz": 0.47209998965263367,
+          "2000_8000_hz": 0.06530000269412994
+        },
+        "hpss_percussive_ratio_median": 0.0373,
+        "detected_onsets_per_second": 3.657,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.027,
+        "chroma_mean": [
+          0.23080000281333923,
+          0.2425999939441681,
+          0.49050000309944153,
+          0.2484000027179718,
+          0.15330000221729279,
+          0.1273999959230423,
+          0.31189998984336853,
+          0.446399986743927,
+          0.17309999465942383,
+          0.211899995803833,
+          0.24549999833106995,
+          0.45159998536109924
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      },
+      "time_range_display": "03:40.61–04:02.49",
+      "boundary_evidence": {
+        "time": 220.613,
+        "novelty": 0.984,
+        "prominence": 0.395,
+        "agglomerative_support_out_of_5": 0,
+        "status": "novelty_supported_subsection",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      },
+      "descriptive_summary": {
+        "energy": "段落RMS中位值处于全曲帧能量的第62.0百分位，属于本曲较高能量范围",
+        "within_segment_trend": "首末三分之一能量中位数接近，差值-0.04 dB",
+        "texture": "频谱质心中位2384.6 Hz；检测起音3.66次/秒；HPSS打击成分指标0.0373",
+        "source": "measured_acoustic_features_with_explicit_heuristic_summary",
+        "limitations": "能量较高不等于快乐或激动；频谱质心不是旋律音高；起音不是鼓点清单；HPSS成分不是乐器识别"
+      },
+      "similar_sections_by_average_features": [
+        {
+          "id": "S07",
+          "score": 0.7942
+        },
+        {
+          "id": "S11",
+          "score": 0.6895
+        }
+      ]
+    },
+    {
+      "id": "S14",
+      "start_seconds": 242.486,
+      "end_seconds": 256.511,
+      "duration_seconds": 14.025,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -16.347,
+          -14.69,
+          -11.556
+        ],
+        "energy_percentile_within_track": 29.9,
+        "energy_change_last_vs_first_third_db": 0.576,
+        "spectral_centroid_hz_median": 1956.6,
+        "spectral_flatness_median": 0.010853,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.5422000288963318,
+          "250_2000_hz": 0.38850000500679016,
+          "2000_8000_hz": 0.06530000269412994
+        },
+        "hpss_percussive_ratio_median": 0.0454,
+        "detected_onsets_per_second": 4.278,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0388,
+        "chroma_mean": [
+          0.43709999322891235,
+          0.3312999904155731,
+          0.6297000050544739,
+          0.2070000022649765,
+          0.22669999301433563,
+          0.16619999706745148,
+          0.40059998631477356,
+          0.7667999863624573,
+          0.304500013589859,
+          0.2572999894618988,
+          0.18379999697208405,
+          0.3257000148296356
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      },
+      "time_range_display": "04:02.49–04:16.51",
+      "boundary_evidence": {
+        "time": 242.486,
+        "novelty": 1.118,
+        "prominence": 0.628,
+        "agglomerative_support_out_of_5": 5,
+        "status": "multi_method_support",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      },
+      "descriptive_summary": {
+        "energy": "段落RMS中位值处于全曲帧能量的第29.9百分位，属于本曲中等能量范围",
+        "within_segment_trend": "首末三分之一能量中位数接近，差值+0.58 dB",
+        "texture": "频谱质心中位1956.6 Hz；检测起音4.28次/秒；HPSS打击成分指标0.0454",
+        "source": "measured_acoustic_features_with_explicit_heuristic_summary",
+        "limitations": "能量较高不等于快乐或激动；频谱质心不是旋律音高；起音不是鼓点清单；HPSS成分不是乐器识别"
+      },
+      "similar_sections_by_average_features": [
+        {
+          "id": "S04",
+          "score": 0.4609
+        },
+        {
+          "id": "S15",
+          "score": 0.4426
+        }
+      ]
+    },
+    {
+      "id": "S15",
+      "start_seconds": 256.511,
+      "end_seconds": 269.747,
+      "duration_seconds": 13.236,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -65.706,
+          -15.838,
+          -12.554
+        ],
+        "energy_percentile_within_track": 17.2,
+        "energy_change_last_vs_first_third_db": -44.222,
+        "spectral_centroid_hz_median": 1821.9,
+        "spectral_flatness_median": 0.008226,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.5059000253677368,
+          "250_2000_hz": 0.32659998536109924,
+          "2000_8000_hz": 0.060100000351667404
+        },
+        "hpss_percussive_ratio_median": 0.0257,
+        "detected_onsets_per_second": 3.702,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.028,
+        "chroma_mean": [
+          0.3467999994754791,
+          0.29600000381469727,
+          0.5587000250816345,
+          0.2092999964952469,
+          0.25360000133514404,
+          0.2621000111103058,
+          0.3125999867916107,
+          0.6987000107765198,
+          0.41290000081062317,
+          0.42719998955726624,
+          0.23810000717639923,
+          0.27300000190734863
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      },
+      "time_range_display": "04:16.51–04:29.75",
+      "boundary_evidence": {
+        "time": 256.511,
+        "novelty": 0.961,
+        "prominence": 0.558,
+        "agglomerative_support_out_of_5": 0,
+        "status": "novelty_supported_subsection",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      },
+      "descriptive_summary": {
+        "energy": "段落RMS中位值处于全曲帧能量的第17.2百分位，属于本曲较低能量范围",
+        "within_segment_trend": "末段较开头减弱，差值-44.22 dB",
+        "texture": "频谱质心中位1821.9 Hz；检测起音3.70次/秒；HPSS打击成分指标0.0257",
+        "source": "measured_acoustic_features_with_explicit_heuristic_summary",
+        "limitations": "能量较高不等于快乐或激动；频谱质心不是旋律音高；起音不是鼓点清单；HPSS成分不是乐器识别"
+      },
+      "similar_sections_by_average_features": [
+        {
+          "id": "S14",
+          "score": 0.4426
+        },
+        {
+          "id": "S04",
+          "score": 0.3271
+        }
+      ]
+    }
+  ],
+  "pattern_similarity_checks": [
+    {
+      "pair": [
+        "S06",
+        "S12"
+      ],
+      "duration_normalized_feature_correlation": 0.6374,
+      "meaning": "time-resampled standardized feature correlation; supports acoustic-pattern similarity, not lyric/melody identity"
+    },
+    {
+      "pair": [
+        "S07",
+        "S13"
+      ],
+      "duration_normalized_feature_correlation": 0.2274,
+      "meaning": "time-resampled standardized feature correlation; supports acoustic-pattern similarity, not lyric/melody identity"
+    }
+  ],
+  "global_unknowns": [
+    "verified_song_form",
+    "instrument_inventory",
+    "genre_probabilities",
+    "valence",
+    "arousal",
+    "lyrics_alignment",
+    "melody_notes",
+    "chords"
+  ],
+  "song_semantics": {
+    "version": "global_semantic_context_v1",
+    "scope": "song-level external textual grounding; no local-audio lyric alignment",
+    "sources": [
+      {
+        "id": "lyrics_line_music",
+        "title": "LINE MUSIC《晴天》歌词页",
+        "url": "https://music-tw.line.me/track/1018299003",
+        "accessed": "2026-11-14",
+        "use": "核对歌词主题和意象；不复制完整歌词"
+      }
+    ],
+    "text_level_observations": {
+      "summary": "文本回望年少相处与校园记忆，通过花、天气与空间距离表达亲近的愿望、等待和分别。",
+      "motif_families": [
+        "植物与记忆",
+        "校园与旧日场所",
+        "风雨与视线阻隔",
+        "靠近与距离",
+        "期待与告别"
+      ],
+      "narrative_features": [
+        "回顾往事",
+        "同一关系中的愿望与失落",
+        "部分内容反复出现"
+      ]
+    },
+    "interpretations": [
+      {
+        "claim": "可以将全曲理解为对一段青春关系的追忆，明亮回忆与失落并存。",
+        "status": "LLM interpretation of the published text; not an audio emotion measurement"
+      },
+      {
+        "claim": "视觉高潮可以表达关系被阻隔或失去，不应仅因能量升高就解释成欢庆。",
+        "status": "creative direction proposal"
+      }
+    ],
+    "timing": {
+      "local_flac_verified": false,
+      "alignment_method": null,
+      "aligned_lyric_units": null,
+      "semantic_segments": null,
+      "note": "未将网页歌词时间戳直接套入269.747秒本地音频，也未给S01-S15补造歌词标签。"
+    },
+    "design_proposal": {
+      "status": "proposal_for_discussion_not_user_approved",
+      "theme": "一段明亮的关系，在记忆里逐渐变得无法触及。",
+      "motif_candidates": [
+        "可辨认的发光花与花瓣",
+        "仅保留部分轮廓的旧日空间",
+        "连接两个主体的光丝与逐渐扩大的间隙",
+        "遮挡主体的雨状粒子或折射层"
+      ],
+      "consistency_rule": "让相同意象经历状态和关系变化，不把每次歌词重复解释为新物件。",
+      "provenance_rule": "花与天气等可核对的主题依据来自文本；具体双主体、光丝、空间残影等造型属于视觉隐喻。"
+    }
+  },
+  "semantic_alignment": {
+    "status": "not_aligned_to_local_audio",
+    "segments": null
+  },
+  "design_constraints_version": "v1_revision_2_semantic",
+  "design_task": "使用修订后的视觉约束和歌曲语义补充，先建立主题、意象与关系变化，再结合声学证据设计表现。允许可识别主体，不强制纯抽象。歌词未对齐，不能把全曲语义编造为15段精确标签；全部视觉隐喻标为创作选择。"
+}

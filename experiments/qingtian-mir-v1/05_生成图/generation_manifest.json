@@ -1,0 +1,346 @@
+[
+  {
+    "id": "S01",
+    "tool": "native image_gen.imagegen",
+    "source_generated_file": null,
+    "original_generated_filename": "exec-e089191b-2b9b-4a99-a167-47cbe60fb6e0.png",
+    "path_note": "Original machine-local path omitted from repository; generated PNG and SHA256 are preserved in 05_生成图/generation_manifest.json.",
+    "saved_file": "05_生成图/S01.png",
+    "pixel_size": [
+      1672,
+      941
+    ],
+    "sha256": "5e905fc9667d36146e606bb01f10f65a5a959f46d6f1d762ba1a1ebb0ad56109",
+    "prompt_file": "04_视觉方案与提示词/S01_imagegen_prompt.txt",
+    "reference_files": [
+      "05_生成图/S06.png",
+      "01_输入/视觉参考原图/参考_01.jpg",
+      "01_输入/视觉参考原图/参考_05.jpg"
+    ],
+    "image_type": "static concept image",
+    "model_id": null,
+    "seed": null,
+    "generation_settings_note": "native tool does not expose model version or seed; preserve image and exact prompt"
+  },
+  {
+    "id": "S02",
+    "tool": "native image_gen.imagegen",
+    "source_generated_file": null,
+    "original_generated_filename": "exec-c93e584a-3a79-481d-8430-5d1f3354293f.png",
+    "path_note": "Original machine-local path omitted from repository; generated PNG and SHA256 are preserved in 05_生成图/generation_manifest.json.",
+    "saved_file": "05_生成图/S02.png",
+    "pixel_size": [
+      1672,
+      941
+    ],
+    "sha256": "da86bd274592a7d99b547950ffeb65f8c41dfa79f17b4a898a6a4a3f865c4371",
+    "prompt_file": "04_视觉方案与提示词/S02_imagegen_prompt.txt",
+    "reference_files": [
+      "05_生成图/S06.png",
+      "01_输入/视觉参考原图/参考_01.jpg",
+      "01_输入/视觉参考原图/参考_05.jpg"
+    ],
+    "image_type": "static concept image",
+    "model_id": null,
+    "seed": null,
+    "generation_settings_note": "native tool does not expose model version or seed; preserve image and exact prompt"
+  },
+  {
+    "id": "S03",
+    "tool": "native image_gen.imagegen",
+    "source_generated_file": null,
+    "original_generated_filename": "exec-1a874504-45ea-48b3-8ce9-2b63a32de432.png",
+    "path_note": "Original machine-local path omitted from repository; generated PNG and SHA256 are preserved in 05_生成图/generation_manifest.json.",
+    "saved_file": "05_生成图/S03.png",
+    "pixel_size": [
+      1672,
+      941
+    ],
+    "sha256": "62545bf7e3588440b8b35dbc5b510f413f4f1974934d073c2b72cdab92a4de1c",
+    "prompt_file": "04_视觉方案与提示词/S03_imagegen_prompt.txt",
+    "reference_files": [
+      "05_生成图/S06.png",
+      "01_输入/视觉参考原图/参考_01.jpg",
+      "01_输入/视觉参考原图/参考_05.jpg"
+    ],
+    "image_type": "static concept image",
+    "model_id": null,
+    "seed": null,
+    "generation_settings_note": "native tool does not expose model version or seed; preserve image and exact prompt"
+  },
+  {
+    "id": "S04",
+    "tool": "native image_gen.imagegen",
+    "source_generated_file": null,
+    "original_generated_filename": "exec-f3663240-9547-465a-8ed2-001f199149d8.png",
+    "path_note": "Original machine-local path omitted from repository; generated PNG and SHA256 are preserved in 05_生成图/generation_manifest.json.",
+    "saved_file": "05_生成图/S04.png",
+    "pixel_size": [
+      1672,
+      941
+    ],
+    "sha256": "d60d6e7ede9c860643c959d2846f96e0f754cd62ab23cb000ee21b5f24e9287e",
+    "prompt_file": "04_视觉方案与提示词/S04_imagegen_prompt.txt",
+    "reference_files": [
+      "05_生成图/S06.png",
+      "01_输入/视觉参考原图/参考_01.jpg",
+      "01_输入/视觉参考原图/参考_05.jpg"
+    ],
+    "image_type": "static concept image",
+    "model_id": null,
+    "seed": null,
+    "generation_settings_note": "native tool does not expose model version or seed; preserve image and exact prompt"
+  },
+  {
+    "id": "S05",
+    "tool": "native image_gen.imagegen",
+    "source_generated_file": null,
+    "original_generated_filename": "exec-630ea9b8-32f4-4d5c-8b14-523bab7e1c6f.png",
+    "path_note": "Original machine-local path omitted from repository; generated PNG and SHA256 are preserved in 05_生成图/generation_manifest.json.",
+    "saved_file": "05_生成图/S05.png",
+    "pixel_size": [
+      1672,
+      941
+    ],
+    "sha256": "7bcc843b2d0e85294678da6ff2cc64ff3de9e1b13927b808483a82229ba0bafe",
+    "prompt_file": "04_视觉方案与提示词/S05_imagegen_prompt.txt",
+    "reference_files": [
+      "05_生成图/S06.png",
+      "01_输入/视觉参考原图/参考_01.jpg",
+      "01_输入/视觉参考原图/参考_05.jpg"
+    ],
+    "image_type": "static concept image",
+    "model_id": null,
+    "seed": null,
+    "generation_settings_note": "native tool does not expose model version or seed; preserve image and exact prompt"
+  },
+  {
+    "id": "S06",
+    "tool": "native image_gen.imagegen",
+    "source_generated_file": null,
+    "original_generated_filename": "exec-c0e9830e-fdb7-485f-85a5-3d509e273134.png",
+    "path_note": "Original machine-local path omitted from repository; generated PNG and SHA256 are preserved in 05_生成图/generation_manifest.json.",
+    "saved_file": "05_生成图/S06.png",
+    "pixel_size": [
+      1672,
+      941
+    ],
+    "sha256": "5d10babbad8ced30c9bf9d762fc7d61366952cf674aa0c65c1b42efb1dace030",
+    "prompt_file": "04_视觉方案与提示词/S06_imagegen_prompt.txt",
+    "reference_files": [
+      "01_输入/视觉参考原图/参考_01.jpg",
+      "01_输入/视觉参考原图/参考_05.jpg"
+    ],
+    "image_type": "static concept image",
+    "model_id": null,
+    "seed": null,
+    "generation_settings_note": "native tool does not expose model version or seed; preserve image and exact prompt"
+  },
+  {
+    "id": "S07",
+    "tool": "native image_gen.imagegen",
+    "source_generated_file": null,
+    "original_generated_filename": "exec-bb21a54b-9d9f-4015-a68b-0309197ad0ab.png",
+    "path_note": "Original machine-local path omitted from repository; generated PNG and SHA256 are preserved in 05_生成图/generation_manifest.json.",
+    "saved_file": "05_生成图/S07.png",
+    "pixel_size": [
+      1672,
+      941
+    ],
+    "sha256": "c6f40d2f75621cb0655bf98cb069807f9a73eb068bda4cca5c7fc5c7ef32ec34",
+    "prompt_file": "04_视觉方案与提示词/S07_imagegen_prompt.txt",
+    "reference_files": [
+      "05_生成图/S06.png",
+      "01_输入/视觉参考原图/参考_01.jpg",
+      "01_输入/视觉参考原图/参考_05.jpg"
+    ],
+    "image_type": "static concept image",
+    "model_id": null,
+    "seed": null,
+    "generation_settings_note": "native tool does not expose model version or seed; preserve image and exact prompt"
+  },
+  {
+    "id": "S08",
+    "tool": "native image_gen.imagegen",
+    "source_generated_file": null,
+    "original_generated_filename": "exec-5dc73283-8999-4400-b230-5d62ba5d91b9.png",
+    "path_note": "Original machine-local path omitted from repository; generated PNG and SHA256 are preserved in 05_生成图/generation_manifest.json.",
+    "saved_file": "05_生成图/S08.png",
+    "pixel_size": [
+      1672,
+      941
+    ],
+    "sha256": "5471360dfacad447210a8f234d8586c67a8641205a8cb5c0b66b39b923f10f7b",
+    "prompt_file": "04_视觉方案与提示词/S08_imagegen_prompt.txt",
+    "reference_files": [
+      "05_生成图/S06.png",
+      "01_输入/视觉参考原图/参考_01.jpg",
+      "01_输入/视觉参考原图/参考_05.jpg"
+    ],
+    "image_type": "static concept image",
+    "model_id": null,
+    "seed": null,
+    "generation_settings_note": "native tool does not expose model version or seed; preserve image and exact prompt"
+  },
+  {
+    "id": "S09",
+    "tool": "native image_gen.imagegen",
+    "source_generated_file": null,
+    "original_generated_filename": "exec-f5f738f9-9a35-436b-991c-6c1f1e458584.png",
+    "path_note": "Original machine-local path omitted from repository; generated PNG and SHA256 are preserved in 05_生成图/generation_manifest.json.",
+    "saved_file": "05_生成图/S09.png",
+    "pixel_size": [
+      1672,
+      941
+    ],
+    "sha256": "fdb753e237a71f3a981b7d0a6d0b84dc43f700a5defe30cbcba228d7584b5fb3",
+    "prompt_file": "04_视觉方案与提示词/S09_imagegen_prompt.txt",
+    "reference_files": [
+      "05_生成图/S06.png",
+      "01_输入/视觉参考原图/参考_01.jpg",
+      "01_输入/视觉参考原图/参考_05.jpg"
+    ],
+    "image_type": "static concept image",
+    "model_id": null,
+    "seed": null,
+    "generation_settings_note": "native tool does not expose model version or seed; preserve image and exact prompt"
+  },
+  {
+    "id": "S10",
+    "tool": "native image_gen.imagegen",
+    "source_generated_file": null,
+    "original_generated_filename": "exec-d7aadd64-b072-4ab3-ab02-69b5a2f3cf81.png",
+    "path_note": "Original machine-local path omitted from repository; generated PNG and SHA256 are preserved in 05_生成图/generation_manifest.json.",
+    "saved_file": "05_生成图/S10.png",
+    "pixel_size": [
+      1672,
+      941
+    ],
+    "sha256": "754c6935ea1885fce7b173e53cef3eb71bff037be8c1f2014de3ade0484c0459",
+    "prompt_file": "04_视觉方案与提示词/S10_imagegen_prompt.txt",
+    "reference_files": [
+      "05_生成图/S06.png",
+      "01_输入/视觉参考原图/参考_01.jpg",
+      "01_输入/视觉参考原图/参考_05.jpg"
+    ],
+    "image_type": "static concept image",
+    "model_id": null,
+    "seed": null,
+    "generation_settings_note": "native tool does not expose model version or seed; preserve image and exact prompt"
+  },
+  {
+    "id": "S11",
+    "tool": "native image_gen.imagegen",
+    "source_generated_file": null,
+    "original_generated_filename": "exec-7b9df185-26fc-49e1-8543-8787951e8930.png",
+    "path_note": "Original machine-local path omitted from repository; generated PNG and SHA256 are preserved in 05_生成图/generation_manifest.json.",
+    "saved_file": "05_生成图/S11.png",
+    "pixel_size": [
+      1672,
+      941
+    ],
+    "sha256": "bcfc61ed47b443f0c4d75b60db7f0e76dd3e2c68a6e51f9ac511eb7b567113f8",
+    "prompt_file": "04_视觉方案与提示词/S11_imagegen_prompt.txt",
+    "reference_files": [
+      "05_生成图/S06.png",
+      "01_输入/视觉参考原图/参考_01.jpg",
+      "01_输入/视觉参考原图/参考_05.jpg"
+    ],
+    "image_type": "static concept image",
+    "model_id": null,
+    "seed": null,
+    "generation_settings_note": "native tool does not expose model version or seed; preserve image and exact prompt"
+  },
+  {
+    "id": "S12",
+    "tool": "native image_gen.imagegen",
+    "source_generated_file": null,
+    "original_generated_filename": "exec-0931fab6-37a2-461d-b0c8-caf4b663e53e.png",
+    "path_note": "Original machine-local path omitted from repository; generated PNG and SHA256 are preserved in 05_生成图/generation_manifest.json.",
+    "saved_file": "05_生成图/S12.png",
+    "pixel_size": [
+      1672,
+      941
+    ],
+    "sha256": "dce1867cb3aea367d3cf710a7b19dcdab01e456351429f5e9d9fc5d4022162d6",
+    "prompt_file": "04_视觉方案与提示词/S12_imagegen_prompt.txt",
+    "reference_files": [
+      "05_生成图/S06.png",
+      "01_输入/视觉参考原图/参考_01.jpg",
+      "01_输入/视觉参考原图/参考_05.jpg"
+    ],
+    "image_type": "static concept image",
+    "model_id": null,
+    "seed": null,
+    "generation_settings_note": "native tool does not expose model version or seed; preserve image and exact prompt"
+  },
+  {
+    "id": "S13",
+    "tool": "native image_gen.imagegen",
+    "source_generated_file": null,
+    "original_generated_filename": "exec-874c0bf3-db24-4a59-8b0c-3734f965bda2.png",
+    "path_note": "Original machine-local path omitted from repository; generated PNG and SHA256 are preserved in 05_生成图/generation_manifest.json.",
+    "saved_file": "05_生成图/S13.png",
+    "pixel_size": [
+      1672,
+      941
+    ],
+    "sha256": "b3ffe860874af57ff6c4cdf668c232912e88885e765f35ff6961563bc9775fe9",
+    "prompt_file": "04_视觉方案与提示词/S13_imagegen_prompt.txt",
+    "reference_files": [
+      "05_生成图/S06.png",
+      "01_输入/视觉参考原图/参考_01.jpg",
+      "01_输入/视觉参考原图/参考_05.jpg"
+    ],
+    "image_type": "static concept image",
+    "model_id": null,
+    "seed": null,
+    "generation_settings_note": "native tool does not expose model version or seed; preserve image and exact prompt"
+  },
+  {
+    "id": "S14",
+    "tool": "native image_gen.imagegen",
+    "source_generated_file": null,
+    "original_generated_filename": "exec-3ff8d686-dbcc-4f63-9bf2-a45a466ad409.png",
+    "path_note": "Original machine-local path omitted from repository; generated PNG and SHA256 are preserved in 05_生成图/generation_manifest.json.",
+    "saved_file": "05_生成图/S14.png",
+    "pixel_size": [
+      1672,
+      941
+    ],
+    "sha256": "bd938af31db80bacafdb024951540f6ecac50020bb4a286b7e55f64f7db3904c",
+    "prompt_file": "04_视觉方案与提示词/S14_imagegen_prompt.txt",
+    "reference_files": [
+      "05_生成图/S06.png",
+      "01_输入/视觉参考原图/参考_01.jpg",
+      "01_输入/视觉参考原图/参考_05.jpg"
+    ],
+    "image_type": "static concept image",
+    "model_id": null,
+    "seed": null,
+    "generation_settings_note": "native tool does not expose model version or seed; preserve image and exact prompt"
+  },
+  {
+    "id": "S15",
+    "tool": "native image_gen.imagegen",
+    "source_generated_file": null,
+    "original_generated_filename": "exec-478ef709-3614-48d9-a9f6-23bf3e434698.png",
+    "path_note": "Original machine-local path omitted from repository; generated PNG and SHA256 are preserved in 05_生成图/generation_manifest.json.",
+    "saved_file": "05_生成图/S15.png",
+    "pixel_size": [
+      1672,
+      941
+    ],
+    "sha256": "3f69a8d42c76125d4007232e4fc9c2da99bf9e837b21e5d6cc41277d1acf3f03",
+    "prompt_file": "04_视觉方案与提示词/S15_imagegen_prompt.txt",
+    "reference_files": [
+      "05_生成图/S06.png",
+      "01_输入/视觉参考原图/参考_01.jpg",
+      "01_输入/视觉参考原图/参考_05.jpg"
+    ],
+    "image_type": "static concept image",
+    "model_id": null,
+    "seed": null,
+    "generation_settings_note": "native tool does not expose model version or seed; preserve image and exact prompt"
+  }
+]

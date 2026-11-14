@@ -1,0 +1,57 @@
+{
+  "version": "global_semantic_context_v1",
+  "scope": "song-level external textual grounding; no local-audio lyric alignment",
+  "sources": [
+    {
+      "id": "lyrics_line_music",
+      "title": "LINE MUSIC《晴天》歌词页",
+      "url": "https://music-tw.line.me/track/1018299003",
+      "accessed": "2026-11-14",
+      "use": "核对歌词主题和意象；不复制完整歌词"
+    }
+  ],
+  "text_level_observations": {
+    "summary": "文本回望年少相处与校园记忆，通过花、天气与空间距离表达亲近的愿望、等待和分别。",
+    "motif_families": [
+      "植物与记忆",
+      "校园与旧日场所",
+      "风雨与视线阻隔",
+      "靠近与距离",
+      "期待与告别"
+    ],
+    "narrative_features": [
+      "回顾往事",
+      "同一关系中的愿望与失落",
+      "部分内容反复出现"
+    ]
+  },
+  "interpretations": [
+    {
+      "claim": "可以将全曲理解为对一段青春关系的追忆，明亮回忆与失落并存。",
+      "status": "LLM interpretation of the published text; not an audio emotion measurement"
+    },
+    {
+      "claim": "视觉高潮可以表达关系被阻隔或失去，不应仅因能量升高就解释成欢庆。",
+      "status": "creative direction proposal"
+    }
+  ],
+  "timing": {
+    "local_flac_verified": false,
+    "alignment_method": null,
+    "aligned_lyric_units": null,
+    "semantic_segments": null,
+    "note": "未将网页歌词时间戳直接套入269.747秒本地音频，也未给S01-S15补造歌词标签。"
+  },
+  "design_proposal": {
+    "status": "proposal_for_discussion_not_user_approved",
+    "theme": "一段明亮的关系，在记忆里逐渐变得无法触及。",
+    "motif_candidates": [
+      "可辨认的发光花与花瓣",
+      "仅保留部分轮廓的旧日空间",
+      "连接两个主体的光丝与逐渐扩大的间隙",
+      "遮挡主体的雨状粒子或折射层"
+    ],
+    "consistency_rule": "让相同意象经历状态和关系变化，不把每次歌词重复解释为新物件。",
+    "provenance_rule": "花与天气等可核对的主题依据来自文本；具体双主体、光丝、空间残影等造型属于视觉隐喻。"
+  }
+}

@@ -1,0 +1,549 @@
+{
+  "scope": "file and data integrity only; not listening, aesthetic or temporal-coherence validation",
+  "passed": true,
+  "check_count": 90,
+  "checks": [
+    {
+      "name": "source_hash_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "analysis_audio_same_duration",
+      "passed": true,
+      "details": 269.74721088435376
+    },
+    {
+      "name": "analysis_audio_format",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "15_distinct_segments",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "complete_continuous_coverage",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "llm_ids_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "plan_ids_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "jobs_ids_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "images_ids_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unmeasured_semantics_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "review_limitations_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S01_music_evidence_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S02_music_evidence_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S03_music_evidence_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S04_music_evidence_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S05_music_evidence_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S06_music_evidence_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S07_music_evidence_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S08_music_evidence_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S09_music_evidence_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S10_music_evidence_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S11_music_evidence_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S12_music_evidence_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S13_music_evidence_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S14_music_evidence_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S15_music_evidence_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "features_full.npz_numeric_values_finite",
+      "passed": true,
+      "details": [
+        "rms",
+        "dbfs",
+        "mfcc",
+        "chroma",
+        "centroid",
+        "flatness",
+        "contrast",
+        "onset",
+        "bands",
+        "percussive_ratio",
+        "frame_times"
+      ]
+    },
+    {
+      "name": "structure_features.npz_numeric_values_finite",
+      "passed": true,
+      "details": [
+        "features",
+        "times",
+        "novelty",
+        "combined"
+      ]
+    },
+    {
+      "name": "S01_original_image_integrity",
+      "passed": true,
+      "details": {
+        "size": [
+          1672,
+          941
+        ]
+      }
+    },
+    {
+      "name": "S01_exact_prompt_saved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S01_reference_paths_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S01_generated_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S02_original_image_integrity",
+      "passed": true,
+      "details": {
+        "size": [
+          1672,
+          941
+        ]
+      }
+    },
+    {
+      "name": "S02_exact_prompt_saved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S02_reference_paths_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S02_generated_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S03_original_image_integrity",
+      "passed": true,
+      "details": {
+        "size": [
+          1672,
+          941
+        ]
+      }
+    },
+    {
+      "name": "S03_exact_prompt_saved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S03_reference_paths_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S03_generated_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S04_original_image_integrity",
+      "passed": true,
+      "details": {
+        "size": [
+          1672,
+          941
+        ]
+      }
+    },
+    {
+      "name": "S04_exact_prompt_saved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S04_reference_paths_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S04_generated_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S05_original_image_integrity",
+      "passed": true,
+      "details": {
+        "size": [
+          1672,
+          941
+        ]
+      }
+    },
+    {
+      "name": "S05_exact_prompt_saved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S05_reference_paths_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S05_generated_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S06_original_image_integrity",
+      "passed": true,
+      "details": {
+        "size": [
+          1672,
+          941
+        ]
+      }
+    },
+    {
+      "name": "S06_exact_prompt_saved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S06_reference_paths_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S06_generated_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S07_original_image_integrity",
+      "passed": true,
+      "details": {
+        "size": [
+          1672,
+          941
+        ]
+      }
+    },
+    {
+      "name": "S07_exact_prompt_saved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S07_reference_paths_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S07_generated_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S08_original_image_integrity",
+      "passed": true,
+      "details": {
+        "size": [
+          1672,
+          941
+        ]
+      }
+    },
+    {
+      "name": "S08_exact_prompt_saved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S08_reference_paths_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S08_generated_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S09_original_image_integrity",
+      "passed": true,
+      "details": {
+        "size": [
+          1672,
+          941
+        ]
+      }
+    },
+    {
+      "name": "S09_exact_prompt_saved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S09_reference_paths_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S09_generated_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S10_original_image_integrity",
+      "passed": true,
+      "details": {
+        "size": [
+          1672,
+          941
+        ]
+      }
+    },
+    {
+      "name": "S10_exact_prompt_saved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S10_reference_paths_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S10_generated_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S11_original_image_integrity",
+      "passed": true,
+      "details": {
+        "size": [
+          1672,
+          941
+        ]
+      }
+    },
+    {
+      "name": "S11_exact_prompt_saved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S11_reference_paths_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S11_generated_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S12_original_image_integrity",
+      "passed": true,
+      "details": {
+        "size": [
+          1672,
+          941
+        ]
+      }
+    },
+    {
+      "name": "S12_exact_prompt_saved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S12_reference_paths_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S12_generated_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S13_original_image_integrity",
+      "passed": true,
+      "details": {
+        "size": [
+          1672,
+          941
+        ]
+      }
+    },
+    {
+      "name": "S13_exact_prompt_saved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S13_reference_paths_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S13_generated_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S14_original_image_integrity",
+      "passed": true,
+      "details": {
+        "size": [
+          1672,
+          941
+        ]
+      }
+    },
+    {
+      "name": "S14_exact_prompt_saved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S14_reference_paths_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S14_generated_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S15_original_image_integrity",
+      "passed": true,
+      "details": {
+        "size": [
+          1672,
+          941
+        ]
+      }
+    },
+    {
+      "name": "S15_exact_prompt_saved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S15_reference_paths_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "S15_generated_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "report_all_local_links_exist",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "report_has_15_cards",
+      "passed": true,
+      "details": null
+    }
+  ]
+}

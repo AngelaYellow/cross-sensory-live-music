@@ -1,0 +1,18 @@
+[
+  {
+    "pair": [
+      "S06",
+      "S12"
+    ],
+    "duration_normalized_feature_correlation": 0.6374,
+    "meaning": "time-resampled standardized feature correlation; supports acoustic-pattern similarity, not lyric/melody identity"
+  },
+  {
+    "pair": [
+      "S07",
+      "S13"
+    ],
+    "duration_normalized_feature_correlation": 0.2274,
+    "meaning": "time-resampled standardized feature correlation; supports acoustic-pattern similarity, not lyric/melody identity"
+  }
+]

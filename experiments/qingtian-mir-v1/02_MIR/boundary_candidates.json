@@ -1,0 +1,257 @@
+{
+  "method": "multi-scale beat-synchronous feature contrast + temporal Ward clustering",
+  "half_windows_beats": [
+    4,
+    8,
+    16
+  ],
+  "clustering_candidates": {
+    "8": [
+      0.0,
+      0.8823582766439909,
+      13.119274376417234,
+      41.586938775510205,
+      141.82748299319726,
+      154.92353741496598,
+      242.4859863945578,
+      266.58829931972787
+    ],
+    "10": [
+      0.0,
+      0.8823582766439909,
+      13.119274376417234,
+      41.586938775510205,
+      91.92780045351473,
+      141.82748299319726,
+      154.92353741496598,
+      179.02585034013606,
+      242.4859863945578,
+      266.58829931972787
+    ],
+    "12": [
+      0.0,
+      0.8823582766439909,
+      13.119274376417234,
+      23.196734693877552,
+      41.586938775510205,
+      91.92780045351473,
+      141.82748299319726,
+      154.92353741496598,
+      179.02585034013606,
+      181.6497052154195,
+      242.4859863945578,
+      266.58829931972787
+    ],
+    "14": [
+      0.0,
+      0.8823582766439909,
+      13.119274376417234,
+      21.873197278911565,
+      23.196734693877552,
+      41.586938775510205,
+      91.92780045351473,
+      141.82748299319726,
+      154.92353741496598,
+      179.02585034013606,
+      181.6497052154195,
+      242.4859863945578,
+      266.58829931972787,
+      269.2353741496599
+    ],
+    "16": [
+      0.0,
+      0.8823582766439909,
+      13.119274376417234,
+      21.873197278911565,
+      23.196734693877552,
+      41.586938775510205,
+      91.92780045351473,
+      141.82748299319726,
+      154.92353741496598,
+      179.02585034013606,
+      181.6497052154195,
+      242.4859863945578,
+      260.017052154195,
+      263.5232653061224,
+      266.58829931972787,
+      269.2353741496599
+    ]
+  },
+  "candidates": [
+    {
+      "time": 13.514,
+      "novelty": 1.528,
+      "prominence": 1.528,
+      "agglomerative_support_out_of_5": 5
+    },
+    {
+      "time": 25.356,
+      "novelty": 0.955,
+      "prominence": 0.417,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 30.627,
+      "novelty": 0.898,
+      "prominence": 0.112,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 41.587,
+      "novelty": 0.944,
+      "prominence": 0.461,
+      "agglomerative_support_out_of_5": 5
+    },
+    {
+      "time": 46.393,
+      "novelty": 0.784,
+      "prominence": 0.276,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 51.177,
+      "novelty": 0.968,
+      "prominence": 0.486,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 69.149,
+      "novelty": 0.949,
+      "prominence": 0.469,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 79.226,
+      "novelty": 0.884,
+      "prominence": 0.357,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 94.552,
+      "novelty": 0.82,
+      "prominence": 0.156,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 101.982,
+      "novelty": 1.103,
+      "prominence": 0.641,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 111.177,
+      "novelty": 0.799,
+      "prominence": 0.118,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 122.555,
+      "novelty": 0.962,
+      "prominence": 0.42,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 129.985,
+      "novelty": 0.961,
+      "prominence": 0.454,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 141.827,
+      "novelty": 0.921,
+      "prominence": 0.385,
+      "agglomerative_support_out_of_5": 5
+    },
+    {
+      "time": 147.958,
+      "novelty": 0.566,
+      "prominence": 0.147,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 154.506,
+      "novelty": 1.009,
+      "prominence": 0.63,
+      "agglomerative_support_out_of_5": 5
+    },
+    {
+      "time": 167.648,
+      "novelty": 0.961,
+      "prominence": 0.44,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 179.026,
+      "novelty": 1.16,
+      "prominence": 0.79,
+      "agglomerative_support_out_of_5": 4
+    },
+    {
+      "time": 187.339,
+      "novelty": 0.95,
+      "prominence": 0.288,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 192.61,
+      "novelty": 0.787,
+      "prominence": 0.122,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 200.04,
+      "novelty": 1.006,
+      "prominence": 0.471,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 210.582,
+      "novelty": 0.871,
+      "prominence": 0.248,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 220.613,
+      "novelty": 0.984,
+      "prominence": 0.395,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 228.043,
+      "novelty": 0.969,
+      "prominence": 0.39,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 235.497,
+      "novelty": 0.876,
+      "prominence": 0.308,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 242.486,
+      "novelty": 1.118,
+      "prominence": 0.628,
+      "agglomerative_support_out_of_5": 5
+    },
+    {
+      "time": 250.799,
+      "novelty": 0.849,
+      "prominence": 0.384,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 256.511,
+      "novelty": 0.961,
+      "prominence": 0.558,
+      "agglomerative_support_out_of_5": 0
+    },
+    {
+      "time": 263.964,
+      "novelty": 0.647,
+      "prominence": 0.275,
+      "agglomerative_support_out_of_5": 1
+    }
+  ],
+  "meaning": "algorithmic candidates; support is parameter agreement, not calibrated probability"
+}

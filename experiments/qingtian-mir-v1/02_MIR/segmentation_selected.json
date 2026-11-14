@@ -1,0 +1,217 @@
+{
+  "status": "signal_reviewed_working_segmentation",
+  "boundaries_seconds": [
+    0.0,
+    13.514,
+    25.356,
+    41.587,
+    69.149,
+    101.982,
+    122.555,
+    141.827,
+    154.506,
+    167.648,
+    179.026,
+    200.04,
+    220.613,
+    242.486,
+    256.511,
+    269.74720833333333
+  ],
+  "review_method": "Codex核对全曲特征图、自相似矩阵、各边界多粒度聚类支持；保留较细声学变化作为视觉工作段",
+  "functional_labels_verified": false,
+  "human_listening_verified": false,
+  "boundary_reviews": [
+    {
+      "id": "S01",
+      "start": 0.0,
+      "boundary": {
+        "status": "audio_start",
+        "time": 0.0
+      }
+    },
+    {
+      "id": "S02",
+      "start": 13.514,
+      "boundary": {
+        "time": 13.514,
+        "novelty": 1.528,
+        "prominence": 1.528,
+        "agglomerative_support_out_of_5": 5,
+        "status": "multi_method_support",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      }
+    },
+    {
+      "id": "S03",
+      "start": 25.356,
+      "boundary": {
+        "time": 25.356,
+        "novelty": 0.955,
+        "prominence": 0.417,
+        "agglomerative_support_out_of_5": 0,
+        "status": "novelty_supported_subsection",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      }
+    },
+    {
+      "id": "S04",
+      "start": 41.587,
+      "boundary": {
+        "time": 41.587,
+        "novelty": 0.944,
+        "prominence": 0.461,
+        "agglomerative_support_out_of_5": 5,
+        "status": "multi_method_support",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      }
+    },
+    {
+      "id": "S05",
+      "start": 69.149,
+      "boundary": {
+        "time": 69.149,
+        "novelty": 0.949,
+        "prominence": 0.469,
+        "agglomerative_support_out_of_5": 0,
+        "status": "novelty_supported_subsection",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      }
+    },
+    {
+      "id": "S06",
+      "start": 101.982,
+      "boundary": {
+        "time": 101.982,
+        "novelty": 1.103,
+        "prominence": 0.641,
+        "agglomerative_support_out_of_5": 0,
+        "status": "novelty_supported_subsection",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      }
+    },
+    {
+      "id": "S07",
+      "start": 122.555,
+      "boundary": {
+        "time": 122.555,
+        "novelty": 0.962,
+        "prominence": 0.42,
+        "agglomerative_support_out_of_5": 0,
+        "status": "novelty_supported_subsection",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      }
+    },
+    {
+      "id": "S08",
+      "start": 141.827,
+      "boundary": {
+        "time": 141.827,
+        "novelty": 0.921,
+        "prominence": 0.385,
+        "agglomerative_support_out_of_5": 5,
+        "status": "multi_method_support",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      }
+    },
+    {
+      "id": "S09",
+      "start": 154.506,
+      "boundary": {
+        "time": 154.506,
+        "novelty": 1.009,
+        "prominence": 0.63,
+        "agglomerative_support_out_of_5": 5,
+        "status": "multi_method_support",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      }
+    },
+    {
+      "id": "S10",
+      "start": 167.648,
+      "boundary": {
+        "time": 167.648,
+        "novelty": 0.961,
+        "prominence": 0.44,
+        "agglomerative_support_out_of_5": 0,
+        "status": "novelty_supported_subsection",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      }
+    },
+    {
+      "id": "S11",
+      "start": 179.026,
+      "boundary": {
+        "time": 179.026,
+        "novelty": 1.16,
+        "prominence": 0.79,
+        "agglomerative_support_out_of_5": 4,
+        "status": "multi_method_support",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      }
+    },
+    {
+      "id": "S12",
+      "start": 200.04,
+      "boundary": {
+        "time": 200.04,
+        "novelty": 1.006,
+        "prominence": 0.471,
+        "agglomerative_support_out_of_5": 0,
+        "status": "novelty_supported_subsection",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      }
+    },
+    {
+      "id": "S13",
+      "start": 220.613,
+      "boundary": {
+        "time": 220.613,
+        "novelty": 0.984,
+        "prominence": 0.395,
+        "agglomerative_support_out_of_5": 0,
+        "status": "novelty_supported_subsection",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      }
+    },
+    {
+      "id": "S14",
+      "start": 242.486,
+      "boundary": {
+        "time": 242.486,
+        "novelty": 1.118,
+        "prominence": 0.628,
+        "agglomerative_support_out_of_5": 5,
+        "status": "multi_method_support",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      }
+    },
+    {
+      "id": "S15",
+      "start": 256.511,
+      "boundary": {
+        "time": 256.511,
+        "novelty": 0.961,
+        "prominence": 0.558,
+        "agglomerative_support_out_of_5": 0,
+        "status": "novelty_supported_subsection",
+        "listening_verified": false,
+        "timing_caveat": "估计边界，不能按毫秒精度解释；模型/窗口选择可能导致偏移"
+      }
+    }
+  ],
+  "retained_subsections_reason": "弱跨方法支持的边界仍作为视觉状态候选保留；不将每个工作段宣称为完整曲式段落"
+}

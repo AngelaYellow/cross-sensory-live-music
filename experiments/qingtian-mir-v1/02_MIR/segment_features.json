@@ -1,0 +1,759 @@
+{
+  "duration_seconds": 269.74720833333333,
+  "sample_rate": 22050,
+  "hop_length": 512,
+  "method": "librosa 0.11.0 / signal processing, no pretrained semantic classifiers",
+  "global_tempo_bpm_estimate": 135.99917763157896,
+  "segments": [
+    {
+      "id": "S01",
+      "start_seconds": 0.0,
+      "end_seconds": 13.514,
+      "duration_seconds": 13.514,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -21.686,
+          -19.225,
+          -17.397
+        ],
+        "energy_percentile_within_track": 3.9,
+        "energy_change_last_vs_first_third_db": -0.022,
+        "spectral_centroid_hz_median": 940.3,
+        "spectral_flatness_median": 4.9e-05,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.24120000004768372,
+          "250_2000_hz": 0.7444000244140625,
+          "2000_8000_hz": 0.012000000104308128
+        },
+        "hpss_percussive_ratio_median": 0.0011,
+        "detected_onsets_per_second": 2.96,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0413,
+        "chroma_mean": [
+          0.1606999933719635,
+          0.23880000412464142,
+          0.8637999892234802,
+          0.32280001044273376,
+          0.19009999930858612,
+          0.10220000147819519,
+          0.1071000024676323,
+          0.2915000021457672,
+          0.12129999697208405,
+          0.04390000179409981,
+          0.06129999831318855,
+          0.11309999972581863
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      }
+    },
+    {
+      "id": "S02",
+      "start_seconds": 13.514,
+      "end_seconds": 25.356,
+      "duration_seconds": 11.842,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -17.403,
+          -16.014,
+          -11.843
+        ],
+        "energy_percentile_within_track": 15.5,
+        "energy_change_last_vs_first_third_db": 0.131,
+        "spectral_centroid_hz_median": 1400.5,
+        "spectral_flatness_median": 0.001809,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.707099974155426,
+          "250_2000_hz": 0.2784000039100647,
+          "2000_8000_hz": 0.013100000098347664
+        },
+        "hpss_percussive_ratio_median": 0.0066,
+        "detected_onsets_per_second": 3.547,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0386,
+        "chroma_mean": [
+          0.29840001463890076,
+          0.18950000405311584,
+          0.43309998512268066,
+          0.2985000014305115,
+          0.34610000252723694,
+          0.19900000095367432,
+          0.25110000371932983,
+          0.5123000144958496,
+          0.1914999932050705,
+          0.0697999969124794,
+          0.17090000212192535,
+          0.6255000233650208
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      }
+    },
+    {
+      "id": "S03",
+      "start_seconds": 25.356,
+      "end_seconds": 41.587,
+      "duration_seconds": 16.231,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -16.51,
+          -14.049,
+          -11.625
+        ],
+        "energy_percentile_within_track": 38.9,
+        "energy_change_last_vs_first_third_db": 1.411,
+        "spectral_centroid_hz_median": 1558.5,
+        "spectral_flatness_median": 0.003977,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.5866000056266785,
+          "250_2000_hz": 0.38580000400543213,
+          "2000_8000_hz": 0.024299999698996544
+        },
+        "hpss_percussive_ratio_median": 0.0164,
+        "detected_onsets_per_second": 3.881,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0321,
+        "chroma_mean": [
+          0.15710000693798065,
+          0.21660000085830688,
+          0.7175999879837036,
+          0.2515999972820282,
+          0.19740000367164612,
+          0.13670000433921814,
+          0.30140000581741333,
+          0.5471000075340271,
+          0.20329999923706055,
+          0.15309999883174896,
+          0.12389999628067017,
+          0.2842999994754791
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      }
+    },
+    {
+      "id": "S04",
+      "start_seconds": 41.587,
+      "end_seconds": 69.149,
+      "duration_seconds": 27.562,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -15.646,
+          -13.528,
+          -10.978
+        ],
+        "energy_percentile_within_track": 48.5,
+        "energy_change_last_vs_first_third_db": 1.307,
+        "spectral_centroid_hz_median": 1943.7,
+        "spectral_flatness_median": 0.010884,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.5329999923706055,
+          "250_2000_hz": 0.4099999964237213,
+          "2000_8000_hz": 0.05260000005364418
+        },
+        "hpss_percussive_ratio_median": 0.0284,
+        "detected_onsets_per_second": 4.027,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0258,
+        "chroma_mean": [
+          0.20329999923706055,
+          0.23669999837875366,
+          0.6765000224113464,
+          0.24809999763965607,
+          0.274399995803833,
+          0.22789999842643738,
+          0.3278999924659729,
+          0.5300999879837036,
+          0.1995999962091446,
+          0.20919999480247498,
+          0.18279999494552612,
+          0.3725000023841858
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      }
+    },
+    {
+      "id": "S05",
+      "start_seconds": 69.149,
+      "end_seconds": 101.982,
+      "duration_seconds": 32.833,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -15.215,
+          -13.048,
+          -10.934
+        ],
+        "energy_percentile_within_track": 58.4,
+        "energy_change_last_vs_first_third_db": 0.602,
+        "spectral_centroid_hz_median": 2139.0,
+        "spectral_flatness_median": 0.014694,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.4927999973297119,
+          "250_2000_hz": 0.44620001316070557,
+          "2000_8000_hz": 0.05590000003576279
+        },
+        "hpss_percussive_ratio_median": 0.0277,
+        "detected_onsets_per_second": 3.533,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0311,
+        "chroma_mean": [
+          0.19110000133514404,
+          0.22609999775886536,
+          0.6082000136375427,
+          0.311599999666214,
+          0.21330000460147858,
+          0.156700000166893,
+          0.32089999318122864,
+          0.4212999939918518,
+          0.1817999929189682,
+          0.20579999685287476,
+          0.17350000143051147,
+          0.32249999046325684
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      }
+    },
+    {
+      "id": "S06",
+      "start_seconds": 101.982,
+      "end_seconds": 122.555,
+      "duration_seconds": 20.573,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -14.942,
+          -12.554,
+          -10.581
+        ],
+        "energy_percentile_within_track": 68.2,
+        "energy_change_last_vs_first_third_db": 0.141,
+        "spectral_centroid_hz_median": 2401.5,
+        "spectral_flatness_median": 0.020444,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.41260001063346863,
+          "250_2000_hz": 0.5135999917984009,
+          "2000_8000_hz": 0.06620000302791595
+        },
+        "hpss_percussive_ratio_median": 0.0498,
+        "detected_onsets_per_second": 3.597,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0309,
+        "chroma_mean": [
+          0.20900000631809235,
+          0.257999986410141,
+          0.6421999931335449,
+          0.3231000006198883,
+          0.29429998993873596,
+          0.16859999299049377,
+          0.3019999861717224,
+          0.4196000099182129,
+          0.15449999272823334,
+          0.16519999504089355,
+          0.13189999759197235,
+          0.2906000018119812
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      }
+    },
+    {
+      "id": "S07",
+      "start_seconds": 122.555,
+      "end_seconds": 141.827,
+      "duration_seconds": 19.272,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -15.257,
+          -13.075,
+          -10.617
+        ],
+        "energy_percentile_within_track": 57.9,
+        "energy_change_last_vs_first_third_db": -0.217,
+        "spectral_centroid_hz_median": 2388.9,
+        "spectral_flatness_median": 0.019519,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.450300008058548,
+          "250_2000_hz": 0.476500004529953,
+          "2000_8000_hz": 0.06379999965429306
+        },
+        "hpss_percussive_ratio_median": 0.0363,
+        "detected_onsets_per_second": 3.165,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0288,
+        "chroma_mean": [
+          0.22789999842643738,
+          0.2800000011920929,
+          0.554099977016449,
+          0.29280000925064087,
+          0.16349999606609344,
+          0.11500000208616257,
+          0.2937999963760376,
+          0.3817000091075897,
+          0.1657000035047531,
+          0.20640000700950623,
+          0.22949999570846558,
+          0.4284000098705292
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      }
+    },
+    {
+      "id": "S08",
+      "start_seconds": 141.827,
+      "end_seconds": 154.506,
+      "duration_seconds": 12.679,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -16.757,
+          -15.439,
+          -11.589
+        ],
+        "energy_percentile_within_track": 21.4,
+        "energy_change_last_vs_first_third_db": 0.232,
+        "spectral_centroid_hz_median": 1678.7,
+        "spectral_flatness_median": 0.003945,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.5421000123023987,
+          "250_2000_hz": 0.40790000557899475,
+          "2000_8000_hz": 0.04879999905824661
+        },
+        "hpss_percussive_ratio_median": 0.006,
+        "detected_onsets_per_second": 3.865,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0244,
+        "chroma_mean": [
+          0.20749999582767487,
+          0.2750000059604645,
+          0.8727999925613403,
+          0.30300000309944153,
+          0.16769999265670776,
+          0.11479999870061874,
+          0.25839999318122864,
+          0.6499999761581421,
+          0.2517000138759613,
+          0.2524999976158142,
+          0.15309999883174896,
+          0.2003999948501587
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      }
+    },
+    {
+      "id": "S09",
+      "start_seconds": 154.506,
+      "end_seconds": 167.648,
+      "duration_seconds": 13.142,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -14.697,
+          -12.842,
+          -10.409
+        ],
+        "energy_percentile_within_track": 62.7,
+        "energy_change_last_vs_first_third_db": 0.771,
+        "spectral_centroid_hz_median": 1873.6,
+        "spectral_flatness_median": 0.010069,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.46889999508857727,
+          "250_2000_hz": 0.4819999933242798,
+          "2000_8000_hz": 0.04659999907016754
+        },
+        "hpss_percussive_ratio_median": 0.0303,
+        "detected_onsets_per_second": 4.033,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0164,
+        "chroma_mean": [
+          0.17900000512599945,
+          0.23430000245571136,
+          0.7541999816894531,
+          0.24940000474452972,
+          0.22840000689029694,
+          0.19629999995231628,
+          0.3474000096321106,
+          0.6183000206947327,
+          0.18610000610351562,
+          0.18690000474452972,
+          0.1542000025510788,
+          0.38440001010894775
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      }
+    },
+    {
+      "id": "S10",
+      "start_seconds": 167.648,
+      "end_seconds": 179.026,
+      "duration_seconds": 11.378,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -14.203,
+          -12.968,
+          -10.668
+        ],
+        "energy_percentile_within_track": 60.1,
+        "energy_change_last_vs_first_third_db": -0.285,
+        "spectral_centroid_hz_median": 2071.8,
+        "spectral_flatness_median": 0.013401,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.40959998965263367,
+          "250_2000_hz": 0.5139999985694885,
+          "2000_8000_hz": 0.07329999655485153
+        },
+        "hpss_percussive_ratio_median": 0.038,
+        "detected_onsets_per_second": 4.043,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0241,
+        "chroma_mean": [
+          0.21559999883174896,
+          0.24609999358654022,
+          0.6557000279426575,
+          0.2125999927520752,
+          0.19349999725818634,
+          0.1696999967098236,
+          0.37450000643730164,
+          0.5935999751091003,
+          0.17139999568462372,
+          0.17749999463558197,
+          0.11580000072717667,
+          0.2727000117301941
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      }
+    },
+    {
+      "id": "S11",
+      "start_seconds": 179.026,
+      "end_seconds": 200.04,
+      "duration_seconds": 21.014,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -15.223,
+          -12.795,
+          -10.568
+        ],
+        "energy_percentile_within_track": 63.6,
+        "energy_change_last_vs_first_third_db": -0.127,
+        "spectral_centroid_hz_median": 2363.3,
+        "spectral_flatness_median": 0.018897,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.4862000048160553,
+          "250_2000_hz": 0.4458000063896179,
+          "2000_8000_hz": 0.061400000005960464
+        },
+        "hpss_percussive_ratio_median": 0.0264,
+        "detected_onsets_per_second": 3.284,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0268,
+        "chroma_mean": [
+          0.19030000269412994,
+          0.23960000276565552,
+          0.574999988079071,
+          0.30970001220703125,
+          0.2003999948501587,
+          0.14169999957084656,
+          0.3334999978542328,
+          0.33820000290870667,
+          0.20640000700950623,
+          0.3271999955177307,
+          0.20999999344348907,
+          0.36959999799728394
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      }
+    },
+    {
+      "id": "S12",
+      "start_seconds": 200.04,
+      "end_seconds": 220.613,
+      "duration_seconds": 20.573,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -14.75,
+          -12.562,
+          -10.506
+        ],
+        "energy_percentile_within_track": 68.1,
+        "energy_change_last_vs_first_third_db": -0.301,
+        "spectral_centroid_hz_median": 2398.0,
+        "spectral_flatness_median": 0.019506,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.3853999972343445,
+          "250_2000_hz": 0.5404999852180481,
+          "2000_8000_hz": 0.06549999862909317
+        },
+        "hpss_percussive_ratio_median": 0.0572,
+        "detected_onsets_per_second": 3.5,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.027,
+        "chroma_mean": [
+          0.18230000138282776,
+          0.2240000069141388,
+          0.5676000118255615,
+          0.3057999908924103,
+          0.28040000796318054,
+          0.16769999265670776,
+          0.30489999055862427,
+          0.3986000120639801,
+          0.14339999854564667,
+          0.18219999969005585,
+          0.14429999887943268,
+          0.28189998865127563
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      }
+    },
+    {
+      "id": "S13",
+      "start_seconds": 220.613,
+      "end_seconds": 242.486,
+      "duration_seconds": 21.873,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -15.291,
+          -12.877,
+          -10.684
+        ],
+        "energy_percentile_within_track": 62.0,
+        "energy_change_last_vs_first_third_db": -0.041,
+        "spectral_centroid_hz_median": 2384.6,
+        "spectral_flatness_median": 0.019181,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.4544000029563904,
+          "250_2000_hz": 0.47209998965263367,
+          "2000_8000_hz": 0.06530000269412994
+        },
+        "hpss_percussive_ratio_median": 0.0373,
+        "detected_onsets_per_second": 3.657,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.027,
+        "chroma_mean": [
+          0.23080000281333923,
+          0.2425999939441681,
+          0.49050000309944153,
+          0.2484000027179718,
+          0.15330000221729279,
+          0.1273999959230423,
+          0.31189998984336853,
+          0.446399986743927,
+          0.17309999465942383,
+          0.211899995803833,
+          0.24549999833106995,
+          0.45159998536109924
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      }
+    },
+    {
+      "id": "S14",
+      "start_seconds": 242.486,
+      "end_seconds": 256.511,
+      "duration_seconds": 14.025,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -16.347,
+          -14.69,
+          -11.556
+        ],
+        "energy_percentile_within_track": 29.9,
+        "energy_change_last_vs_first_third_db": 0.576,
+        "spectral_centroid_hz_median": 1956.6,
+        "spectral_flatness_median": 0.010853,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.5422000288963318,
+          "250_2000_hz": 0.38850000500679016,
+          "2000_8000_hz": 0.06530000269412994
+        },
+        "hpss_percussive_ratio_median": 0.0454,
+        "detected_onsets_per_second": 4.278,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.0388,
+        "chroma_mean": [
+          0.43709999322891235,
+          0.3312999904155731,
+          0.6297000050544739,
+          0.2070000022649765,
+          0.22669999301433563,
+          0.16619999706745148,
+          0.40059998631477356,
+          0.7667999863624573,
+          0.304500013589859,
+          0.2572999894618988,
+          0.18379999697208405,
+          0.3257000148296356
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      }
+    },
+    {
+      "id": "S15",
+      "start_seconds": 256.511,
+      "end_seconds": 269.747,
+      "duration_seconds": 13.236,
+      "functional_label": null,
+      "acoustic_measurements": {
+        "rms_dbfs_p10_p50_p90": [
+          -65.706,
+          -15.838,
+          -12.554
+        ],
+        "energy_percentile_within_track": 17.2,
+        "energy_change_last_vs_first_third_db": -44.222,
+        "spectral_centroid_hz_median": 1821.9,
+        "spectral_flatness_median": 0.008226,
+        "frequency_band_energy_ratios_mean": {
+          "20_250_hz": 0.5059000253677368,
+          "250_2000_hz": 0.32659998536109924,
+          "2000_8000_hz": 0.060100000351667404
+        },
+        "hpss_percussive_ratio_median": 0.0257,
+        "detected_onsets_per_second": 3.702,
+        "beat_interval_bpm_median": 136.0,
+        "beat_interval_coefficient_of_variation": 0.028,
+        "chroma_mean": [
+          0.3467999994754791,
+          0.29600000381469727,
+          0.5587000250816345,
+          0.2092999964952469,
+          0.25360000133514404,
+          0.2621000111103058,
+          0.3125999867916107,
+          0.6987000107765198,
+          0.41290000081062317,
+          0.42719998955726624,
+          0.23810000717639923,
+          0.27300000190734863
+        ]
+      },
+      "unmeasured": {
+        "instruments": null,
+        "genre": null,
+        "valence": null,
+        "arousal": null,
+        "lyrics": null,
+        "melody_notes": null,
+        "chords": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "source_path": "01_输入/周杰伦 - 晴天.flac",
+  "sha256": "0c1a866751042dae234794a45736c52c13a89994da9fccea838cc91ede2d8511",
+  "duration_seconds": 269.74720833333333,
+  "sample_rate": 96000,
+  "channels": 2,
+  "subtype": "PCM_24",
+  "analysis_audio": "晴天_分析用_22050Hz_mono.wav",
+  "preprocessing": "FFmpeg: stereo arithmetic downmix, resample 22050 Hz, PCM16; no trim, gain normalization or silence removal"
+}

@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "desktop": {
+    "overflow": false,
+    "images": [
+      {
+        "src": "05_生成图/S01.png",
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "src": "05_生成图/S02.png",
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "src": "05_生成图/S03.png",
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "src": "05_生成图/S04.png",
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "src": "05_生成图/S05.png",
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "src": "05_生成图/S06.png",
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "src": "05_生成图/S07.png",
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "src": "05_生成图/S08.png",
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "src": "05_生成图/S09.png",
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "src": "05_生成图/S10.png",
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "src": "05_生成图/S11.png",
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "src": "05_生成图/S12.png",
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "src": "05_生成图/S13.png",
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "src": "05_生成图/S14.png",
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "src": "05_生成图/S15.png",
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "src": "02_MIR/MIR_全曲特征与分段.png",
+        "width": 2400,
+        "height": 1650
+      }
+    ],
+    "audioDuration": 269.747211,
+    "cards": 15
+  },
+  "mobileOverflow": false,
+  "segmentStart": 142.036215,
+  "stopStatus": "该段试听结束，可选择下一段。",
+  "fullPlaybackVerified": true,
+  "pageErrors": []
+}
